@@ -120,7 +120,8 @@ failures-taxonomies/
 │   ├── check_retrieval_cache.py# verifies the retrieval cache changes no result
 │   ├── judge_audit.py          # LLM-judge metric audit
 │   ├── predictability.py       # secondary analysis: predicting the retrieval state
-│   ├── analyze_study.py        # the registered analysis — computes every reported number
+│   ├── analyze_study.py        # the registered analysis — computes every registered number
+│   ├── post_hoc.py             # post hoc analyses (not in the registered plan) from the same rows
 │   ├── freeze_osf.py           # how the plan and the hash list were frozen
 │   └── rebuild_indexes.py      # rebuild BM25 / dense indexes from the passage texts
 ├── docs/                       # study design and the registered analysis plan
@@ -187,8 +188,11 @@ re-ranker scores). File prefixes map to the systems of the paper:
 * **Registered before the test run.** The analysis plan (`docs/21_analysis_plan.md`) and the SHA-256 hashes
   of every input were registered on [OSF](https://osf.io/6mdtj) before any test question was generated. With
   the release assets extracted, `sha256sum -c osf_registration/frozen_files.sha256` verifies all 110 files.
-* **Every number from the released rows.** `scripts/analyze_study.py` recomputes every reported number from
+* **Every number from the released rows.** `scripts/analyze_study.py` recomputes every registered analysis from
   `results/raw/` in minutes, without a GPU; its output is identical to `results/analysis/s1_test.json`.
+  `scripts/post_hoc.py` computes the analyses decided after the test results (headroom-normalised gains,
+  dose–response by coverage and number of hops, an alternative state for unanswerable questions, whole-token
+  matching, and others) from the same rows, without new generation → `results/analysis/post_hoc.json`.
 * **Exact pairing.** All systems share the same first retrieval and generator at temperature 0, and every
   LLM call is cached by request, so per-question comparisons are exact and runs are resumable.
 * **Audited construction.** `scripts/audit_study.py` checks, before any generation, that every evidence chain is
@@ -206,6 +210,7 @@ re-ranker scores). File prefixes map to the systems of the paper:
 pip install -r requirements.txt
 python scripts/analyze_study.py --split test      # → results/analysis/s1_test.{json,md}
 python scripts/analyze_study.py --split dev
+python scripts/post_hoc.py                        # post hoc analyses (confusion matrices need the classifier asset)
 ```
 
 ### 2. Re-run the experiments (GPU)
@@ -251,7 +256,7 @@ If you use this repository or refer to the findings, please cite:
   doi     = {TODO},
   title   = {When Does Corrective Retrieval Pay Off? An Oracle-Controlled Study of Failure Types and Retrieval State},
   url     = {TODO},
-  version = {1.0.0},
+  version = {1.0.1},
   year    = {2026}
 }
 ```
