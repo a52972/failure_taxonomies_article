@@ -1,0 +1,88 @@
+{
+  "hp": {
+    "base": "distilbert-base-uncased",
+    "epochs": 4,
+    "lr": 3e-05,
+    "batch": 16,
+    "max_len": 512,
+    "holdout": 0.1,
+    "seed": 42
+  },
+  "train_labels": {
+    "COMPLETE": 1411,
+    "NONE_FOUND": 442,
+    "PARTIAL": 1037
+  },
+  "MH.test": {
+    "n": 1500,
+    "true_labels": {
+      "COMPLETE": 612,
+      "PARTIAL": 845,
+      "NONE_FOUND": 43
+    },
+    "text": {
+      "accuracy": 0.7773333333333333,
+      "macro_f1": 0.6103019404035152,
+      "f1_NONE_FOUND": 0.24742268041237117,
+      "f1_PARTIAL": 0.8113207547169812,
+      "f1_COMPLETE": 0.772162386081193
+    },
+    "question": {
+      "accuracy": 0.7306666666666667,
+      "macro_f1": 0.5259105810529561,
+      "f1_NONE_FOUND": 0.07339449541284404,
+      "f1_PARTIAL": 0.7731897067624176,
+      "f1_COMPLETE": 0.7311475409836065
+    },
+    "scores": {
+      "accuracy": 0.6273333333333333,
+      "macro_f1": 0.5552526387372122,
+      "f1_NONE_FOUND": 0.40404040404040403,
+      "f1_PARTIAL": 0.5900383141762452,
+      "f1_COMPLETE": 0.6716791979949874
+    },
+    "majority": {
+      "accuracy": 0.408,
+      "macro_f1": 0.1931818181818182,
+      "f1_NONE_FOUND": 0.0,
+      "f1_PARTIAL": 0.0,
+      "f1_COMPLETE": 0.5795454545454546
+    }
+  },
+  "MIXED.test": {
+    "n": 1110,
+    "true_labels": {
+      "NONE_FOUND": 461,
+      "COMPLETE": 496,
+      "PARTIAL": 153
+    },
+    "text": {
+      "accuracy": 0.627927927927928,
+      "macro_f1": 0.5779790645992477,
+      "f1_NONE_FOUND": 0.4192,
+      "f1_PARTIAL": 0.5310492505353318,
+      "f1_COMPLETE": 0.7836879432624113
+    },
+    "question": {
+      "accuracy": 0.5720720720720721,
+      "macro_f1": 0.5105941004565455,
+      "f1_NONE_FOUND": 0.2837370242214533,
+      "f1_PARTIAL": 0.5197215777262181,
+      "f1_COMPLETE": 0.7283236994219653
+    },
+    "scores": {
+      "accuracy": 0.5207207207207207,
+      "macro_f1": 0.4613864664674446,
+      "f1_NONE_FOUND": 0.41898527004909986,
+      "f1_PARTIAL": 0.29850746268656714,
+      "f1_COMPLETE": 0.6666666666666667
+    },
+    "majority": {
+      "accuracy": 0.44684684684684683,
+      "macro_f1": 0.20589456205894563,
+      "f1_NONE_FOUND": 0.0,
+      "f1_PARTIAL": 0.0,
+      "f1_COMPLETE": 0.6176836861768369
+    }
+  }
+}

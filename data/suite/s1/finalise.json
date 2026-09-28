@@ -1,0 +1,29 @@
+{
+  "MH.test": {
+    "COMPLEX": 1500
+  },
+  "MIXED.test": {
+    "ANSWERABLE": 270,
+    "INSUFFICIENT_SINGLE": 210,
+    "COMPLEX": 270,
+    "INSUFFICIENT_HOP": 210,
+    "VAGUE": 150
+  },
+  "MH.dev": {
+    "COMPLEX": 300
+  },
+  "MIXED.dev": {
+    "ANSWERABLE": 90,
+    "INSUFFICIENT_SINGLE": 75,
+    "COMPLEX": 90,
+    "INSUFFICIENT_HOP": 75,
+    "VAGUE": 50
+  },
+  "STATE_TRAIN.train": {
+    "ANSWERABLE": 667,
+    "INSUFFICIENT_SINGLE": 143,
+    "COMPLEX": 1800,
+    "INSUFFICIENT_HOP": 180,
+    "VAGUE": 100
+  }
+}

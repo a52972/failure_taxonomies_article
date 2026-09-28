@@ -1,0 +1,23 @@
+2026-09-23 12:38:32,751 INFO [multihop] pilot 45247 + new 37481 = 82728 passages
+2026-09-23 12:38:39,939 DEBUG Building index from IDs objects
+2026-09-23 12:38:43,425 INFO [multihop] BM25 indexed in 7.1s
+2026-09-23 12:38:43,427 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-23 12:38:45,160 INFO [multihop] embedding 82728 passages from 45247 (batch 32)
+2026-09-23 12:38:48,581 INFO [multihop] embedded 45279/82728 (9/s, ETA 67 min)
+2026-09-23 12:41:43,046 INFO [multihop] embedded 51679/82728 (36/s, ETA 14 min)
+2026-09-23 12:44:30,375 INFO [multihop] embedded 58079/82728 (37/s, ETA 11 min)
+2026-09-23 12:47:44,801 INFO [multihop] embedded 64479/82728 (36/s, ETA 9 min)
+2026-09-23 12:50:35,978 INFO [multihop] embedded 70879/82728 (36/s, ETA 5 min)
+2026-09-23 12:53:26,487 INFO [multihop] embedded 77279/82728 (36/s, ETA 2 min)
+2026-09-23 12:56:00,155 INFO [single] pilot 55721 + new 15518 = 71239 passages
+2026-09-23 12:56:07,235 DEBUG Building index from IDs objects
+2026-09-23 12:56:10,860 INFO [single] BM25 indexed in 7.9s
+2026-09-23 12:56:11,511 INFO [single] embedding 71239 passages from 55721 (batch 32)
+2026-09-23 12:56:12,845 INFO [single] embedded 55753/71239 (24/s, ETA 11 min)
+2026-09-23 12:59:07,852 INFO [single] embedded 62153/71239 (36/s, ETA 4 min)
+2026-09-23 13:02:08,387 INFO [single] embedded 68553/71239 (36/s, ETA 1 min)
+2026-09-23 13:03:25,176 INFO [ambig] pilot 33624 + new 969 = 34593 passages
+2026-09-23 13:03:27,810 DEBUG Building index from IDs objects
+2026-09-23 13:03:29,222 INFO [ambig] BM25 indexed in 2.9s
+2026-09-23 13:03:29,722 INFO [ambig] embedding 34593 passages from 33624 (batch 32)
+2026-09-23 13:03:31,158 INFO [ambig] embedded 33656/34593 (22/s, ETA 1 min)

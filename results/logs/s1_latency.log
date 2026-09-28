@@ -1,0 +1,56 @@
+2026-09-26 10:47:10 ==== latency no_corr_k5 ====
+2026-09-26 10:47:10,435 INFO ── MH.test / no_corr_k5 → none|k=5
+2026-09-26 10:47:10,571 INFO none|k=5 | MH.test | 0 done, 100 todo
+2026-09-26 10:47:11,356 INFO [multihop] loaded 82728 passages
+2026-09-26 10:47:11,374 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-26 10:47:19,545 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-26 10:47:21,216 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-26 10:48:39,151 INFO   25/100  (3.5s/q)
+2026-09-26 10:49:40,082 INFO   50/100  (3.0s/q)
+2026-09-26 10:50:57,778 INFO   75/100  (3.0s/q)
+2026-09-26 10:52:18,997 INFO   100/100  (3.1s/q)
+2026-09-26 10:52:19 ==== latency s_disambiguate ====
+2026-09-26 10:52:20,291 INFO ── MH.test / s_disambiguate → judge=constant:VAGUE|policy=typed
+2026-09-26 10:52:20,430 INFO judge=constant:VAGUE|policy=typed | MH.test | 0 done, 100 todo
+2026-09-26 10:52:21,365 INFO [multihop] loaded 82728 passages
+2026-09-26 10:52:21,386 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-26 10:52:23,058 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-26 10:52:23,182 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-26 10:54:10,024 INFO   25/100  (4.4s/q)
+2026-09-26 10:56:14,974 INFO   50/100  (4.7s/q)
+2026-09-26 10:58:00,734 INFO   75/100  (4.5s/q)
+2026-09-26 10:59:35,169 INFO   100/100  (4.3s/q)
+2026-09-26 10:59:35 ==== latency s_decompose ====
+2026-09-26 10:59:36,284 INFO ── MH.test / s_decompose → judge=constant:COMPLEX|policy=typed
+2026-09-26 10:59:36,419 INFO judge=constant:COMPLEX|policy=typed | MH.test | 0 done, 100 todo
+2026-09-26 10:59:37,323 INFO [multihop] loaded 82728 passages
+2026-09-26 10:59:37,343 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-26 10:59:38,205 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-26 10:59:38,329 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-26 11:02:27,498 INFO   25/100  (6.8s/q)
+2026-09-26 11:04:57,060 INFO   50/100  (6.4s/q)
+2026-09-26 11:07:35,414 INFO   75/100  (6.4s/q)
+2026-09-26 11:10:08,533 INFO   100/100  (6.3s/q)
+2026-09-26 11:10:08 ==== latency s_decomp_iter ====
+2026-09-26 11:10:09,091 INFO ── MH.test / s_decomp_iter → judge=constant:COMPLEX|policy=typed_iter
+2026-09-26 11:10:09,228 INFO judge=constant:COMPLEX|policy=typed_iter | MH.test | 0 done, 100 todo
+2026-09-26 11:10:10,007 INFO [multihop] loaded 82728 passages
+2026-09-26 11:10:10,024 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-26 11:10:10,863 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-26 11:10:11,255 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-26 11:12:47,085 INFO   25/100  (6.3s/q)
+2026-09-26 11:15:14,627 INFO   50/100  (6.1s/q)
+2026-09-26 11:17:45,013 INFO   75/100  (6.1s/q)
+2026-09-26 11:20:12,653 INFO   100/100  (6.0s/q)
+2026-09-26 11:20:12 ==== latency j_llm ====
+2026-09-26 11:20:13,431 INFO ── MH.test / j_llm → judge=llm|policy=typed
+2026-09-26 11:20:13,570 INFO judge=llm|policy=typed | MH.test | 0 done, 100 todo
+2026-09-26 11:20:14,488 INFO [multihop] loaded 82728 passages
+2026-09-26 11:20:14,508 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-26 11:20:15,913 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-26 11:20:16,038 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-26 11:22:20,095 INFO   25/100  (5.1s/q)
+2026-09-26 11:24:15,639 INFO   50/100  (4.8s/q)
+2026-09-26 11:26:11,066 INFO   75/100  (4.8s/q)
+2026-09-26 11:28:10,529 INFO   100/100  (4.8s/q)
+2026-09-26 11:28:10 ==== LATENCY DONE ====

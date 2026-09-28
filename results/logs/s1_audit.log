@@ -1,0 +1,111 @@
+{
+  "A3_overlap": {
+    "with_pilot": 0,
+    "between_sets": 0
+  },
+  "sets": {
+    "MH.test": {
+      "COMPLEX": {
+        "n": 1500,
+        "A4_short_answer": 345,
+        "A1_chain_in_corpus": 1500,
+        "A5_answer_outside_chain": 983
+      }
+    },
+    "MIXED.test": {
+      "COMPLEX": {
+        "n": 270,
+        "A4_short_answer": 52,
+        "A1_chain_in_corpus": 270,
+        "A5_answer_outside_chain": 180
+      },
+      "INSUFFICIENT_HOP": {
+        "n": 210,
+        "A4_short_answer": 35,
+        "A2_answer_retrievable": 0
+      },
+      "ANSWERABLE": {
+        "n": 270,
+        "A4_short_answer": 72,
+        "A1_answer_in_corpus": 270
+      },
+      "INSUFFICIENT_SINGLE": {
+        "n": 210,
+        "A4_short_answer": 30,
+        "A2_answer_retrievable": 0
+      },
+      "VAGUE": {
+        "n": 150,
+        "A4_short_answer": 41,
+        "A1_answer_in_corpus": 150,
+        "A1_two_answers_in_corpus": 147
+      }
+    },
+    "MH.dev": {
+      "COMPLEX": {
+        "n": 300,
+        "A4_short_answer": 56,
+        "A1_chain_in_corpus": 300,
+        "A5_answer_outside_chain": 195
+      }
+    },
+    "MIXED.dev": {
+      "COMPLEX": {
+        "n": 90,
+        "A4_short_answer": 18,
+        "A1_chain_in_corpus": 90,
+        "A5_answer_outside_chain": 60
+      },
+      "INSUFFICIENT_HOP": {
+        "n": 75,
+        "A4_short_answer": 13,
+        "A2_answer_retrievable": 0
+      },
+      "ANSWERABLE": {
+        "n": 90,
+        "A4_short_answer": 23,
+        "A1_answer_in_corpus": 90
+      },
+      "INSUFFICIENT_SINGLE": {
+        "n": 75,
+        "A4_short_answer": 12,
+        "A2_answer_retrievable": 0
+      },
+      "VAGUE": {
+        "n": 50,
+        "A4_short_answer": 10,
+        "A1_answer_in_corpus": 50,
+        "A1_two_answers_in_corpus": 49
+      }
+    },
+    "STATE_TRAIN.train": {
+      "COMPLEX": {
+        "n": 1800,
+        "A4_short_answer": 373,
+        "A1_chain_in_corpus": 1800,
+        "A5_answer_outside_chain": 1167
+      },
+      "INSUFFICIENT_HOP": {
+        "n": 180,
+        "A4_short_answer": 31,
+        "A2_answer_retrievable": 0
+      },
+      "ANSWERABLE": {
+        "n": 667,
+        "A4_short_answer": 135,
+        "A1_answer_in_corpus": 665
+      },
+      "INSUFFICIENT_SINGLE": {
+        "n": 143,
+        "A4_short_answer": 13,
+        "A2_answer_retrievable": 0
+      },
+      "VAGUE": {
+        "n": 100,
+        "A4_short_answer": 24,
+        "A1_answer_in_corpus": 100,
+        "A1_two_answers_in_corpus": 99
+      }
+    }
+  }
+}

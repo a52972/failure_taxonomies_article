@@ -1,0 +1,12 @@
+TITLE
+When Does Corrective Retrieval Pay Off? Failure types and retrieval state in corrective RAG — analysis plan
+
+DESCRIPTION (project/registration description, one paragraph)
+Analysis plan, question sets and frozen code of a study on corrective retrieval-augmented generation (RAG). The study measures how much a perfect (oracle) failure-type label is worth for choosing a corrective action, and whether the benefit of correction depends on how much of the required evidence the first retrieval found. It proposes no method.
+
+SUMMARY (paste into the "Summary" field of the Open-Ended Registration)
+This registration freezes the analysis plan of a confirmatory study on corrective retrieval-augmented generation, together with the SHA-256 hashes of every file the analysis depends on: the analysis and run code, the question sets, the retrieval corpora, the development-run results and two small classifiers used in a secondary analysis. The question sets and the code are attached in full (question_sets_s1.zip, frozen_code.zip).
+
+Three primary hypotheses are tested with Llama-3.1-8B-Instruct, with Holm correction: (H1) on 1,500 multi-hop questions, routing corrections by an oracle failure-type label is equivalent to not correcting within ±2 percentage points; (H2) on a mixed set of 1,110 answerable, ambiguous and unanswerable questions, the oracle label with the best type-to-action mapping is equivalent to the best constant policy within ±2 points, both selected on a development set; (H3) the gain of correction is larger when the first retrieval found part of the evidence chain than when it found all of it. Qwen-2.5-7B and Gemma-2-9B are run on the same sets as replications.
+
+The hypotheses come from an exploratory pilot by the same authors on other questions, disclosed in §1 of the plan; none of the 18,856 pilot questions is reused. At the time of registration the development run is complete (its selected mappings are listed in §8 of the plan) and no generation has been run on the test sets.

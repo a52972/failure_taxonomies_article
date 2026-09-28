@@ -1,0 +1,51 @@
+{
+  "pass1/MH/no_corr_k5": {
+    "n": 60,
+    "different": 0
+  },
+  "pass1/MH/s_disambiguate": {
+    "n": 60,
+    "different": 0
+  },
+  "pass1/MH/s_decompose": {
+    "n": 60,
+    "different": 0
+  },
+  "pass1/MIXED/no_corr_k5_ab": {
+    "n": 60,
+    "different": 0
+  },
+  "pass1/MIXED/s_disambiguate_ab": {
+    "n": 60,
+    "different": 0
+  },
+  "pass1/MIXED/s_decompose_ab": {
+    "n": 60,
+    "different": 0
+  },
+  "pass2/MH/no_corr_k5": {
+    "n": 60,
+    "different": 0
+  },
+  "pass2/MH/s_disambiguate": {
+    "n": 60,
+    "different": 0
+  },
+  "pass2/MH/s_decompose": {
+    "n": 60,
+    "different": 0
+  },
+  "pass2/MIXED/no_corr_k5_ab": {
+    "n": 60,
+    "different": 0
+  },
+  "pass2/MIXED/s_disambiguate_ab": {
+    "n": 60,
+    "different": 0
+  },
+  "pass2/MIXED/s_decompose_ab": {
+    "n": 60,
+    "different": 0
+  },
+  "identical": true
+}

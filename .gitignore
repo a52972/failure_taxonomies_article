@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+# caches and large binaries (published as release assets or rebuilt locally)
+data/cache/
+data/corpus_s1/*/emb.npy
+data/corpus_s1/*/emb.progress
+data/corpus_s1/*/emb.done
+data/corpus_s1/*/bm25/
+data/models/

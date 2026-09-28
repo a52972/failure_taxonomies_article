@@ -1,0 +1,1129 @@
+2026-09-23 13:53:17 ==== llama3-8b | dev | MH MIXED ====
+2026-09-23 13:53:17,994 INFO ── MH.dev / no_corr → none|k=3
+2026-09-23 13:53:18,020 INFO none|k=3 | MH.dev | 0 done, 300 todo
+2026-09-23 13:53:19,205 INFO [multihop] loaded 82728 passages
+2026-09-23 13:53:19,842 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-23 13:53:20,453 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-23 13:53:42,168 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-23 13:54:29,012 INFO   25/300  (2.8s/q)
+2026-09-23 13:55:19,274 INFO   50/300  (2.4s/q)
+2026-09-23 13:56:08,845 INFO   75/300  (2.3s/q)
+2026-09-23 13:56:57,302 INFO   100/300  (2.2s/q)
+2026-09-23 13:57:49,696 INFO   125/300  (2.2s/q)
+2026-09-23 13:58:39,018 INFO   150/300  (2.1s/q)
+2026-09-23 13:59:31,207 INFO   175/300  (2.1s/q)
+2026-09-23 14:00:20,322 INFO   200/300  (2.1s/q)
+2026-09-23 14:01:08,514 INFO   225/300  (2.1s/q)
+2026-09-23 14:01:53,562 INFO   250/300  (2.1s/q)
+2026-09-23 14:02:39,788 INFO   275/300  (2.0s/q)
+2026-09-23 14:03:32,702 INFO   300/300  (2.0s/q)
+2026-09-23 14:03:32,703 INFO ── MH.dev / no_corr_k5 → none|k=5
+2026-09-23 14:03:32,730 INFO none|k=5 | MH.dev | 0 done, 300 todo
+2026-09-23 14:04:26,402 INFO   25/300  (2.1s/q)
+2026-09-23 14:05:19,898 INFO   50/300  (2.1s/q)
+2026-09-23 14:06:25,797 INFO   75/300  (2.3s/q)
+2026-09-23 14:07:31,246 INFO   100/300  (2.4s/q)
+2026-09-23 14:08:31,768 INFO   125/300  (2.4s/q)
+2026-09-23 14:09:28,175 INFO   150/300  (2.4s/q)
+2026-09-23 14:10:19,676 INFO   175/300  (2.3s/q)
+2026-09-23 14:11:09,791 INFO   200/300  (2.3s/q)
+2026-09-23 14:11:56,339 INFO   225/300  (2.2s/q)
+2026-09-23 14:12:42,619 INFO   250/300  (2.2s/q)
+2026-09-23 14:13:30,566 INFO   275/300  (2.2s/q)
+2026-09-23 14:14:16,999 INFO   300/300  (2.1s/q)
+2026-09-23 14:14:17,001 INFO ── MH.dev / s_rewrite → judge=constant:NONE|policy=typed
+2026-09-23 14:14:17,025 INFO judge=constant:NONE|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 14:15:31,205 INFO   25/300  (3.0s/q)
+2026-09-23 14:16:42,759 INFO   50/300  (2.9s/q)
+2026-09-23 14:18:01,158 INFO   75/300  (3.0s/q)
+2026-09-23 14:19:22,150 INFO   100/300  (3.1s/q)
+2026-09-23 14:20:39,327 INFO   125/300  (3.1s/q)
+2026-09-23 14:21:55,478 INFO   150/300  (3.1s/q)
+2026-09-23 14:23:11,617 INFO   175/300  (3.1s/q)
+2026-09-23 14:24:28,898 INFO   200/300  (3.1s/q)
+2026-09-23 14:25:50,919 INFO   225/300  (3.1s/q)
+2026-09-23 14:27:07,637 INFO   250/300  (3.1s/q)
+2026-09-23 14:28:25,065 INFO   275/300  (3.1s/q)
+2026-09-23 14:29:54,002 INFO   300/300  (3.1s/q)
+2026-09-23 14:29:54,004 INFO ── MH.dev / s_decompose → judge=constant:COMPLEX|policy=typed
+2026-09-23 14:29:55,477 INFO judge=constant:COMPLEX|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 14:31:56,894 INFO   25/300  (4.9s/q)
+2026-09-23 14:34:22,484 INFO   50/300  (5.3s/q)
+2026-09-23 14:36:40,574 INFO   75/300  (5.4s/q)
+2026-09-23 14:38:49,504 INFO   100/300  (5.3s/q)
+2026-09-23 14:41:11,669 INFO   125/300  (5.4s/q)
+2026-09-23 14:43:37,142 INFO   150/300  (5.5s/q)
+2026-09-23 14:45:53,289 INFO   175/300  (5.5s/q)
+2026-09-23 14:48:08,444 INFO   200/300  (5.5s/q)
+2026-09-23 14:50:09,188 INFO   225/300  (5.4s/q)
+2026-09-23 14:52:22,478 INFO   250/300  (5.4s/q)
+2026-09-23 14:54:55,425 INFO   275/300  (5.5s/q)
+2026-09-23 14:57:20,635 INFO   300/300  (5.5s/q)
+2026-09-23 14:57:20,707 INFO ── MH.dev / s_decomp_iter → judge=constant:COMPLEX|policy=typed_iter
+2026-09-23 14:57:20,768 INFO judge=constant:COMPLEX|policy=typed_iter | MH.dev | 0 done, 300 todo
+2026-09-23 14:59:46,285 INFO   25/300  (5.8s/q)
+2026-09-23 15:01:59,314 INFO   50/300  (5.6s/q)
+2026-09-23 15:04:15,883 INFO   75/300  (5.5s/q)
+2026-09-23 15:06:25,137 INFO   100/300  (5.4s/q)
+2026-09-23 15:08:43,477 INFO   125/300  (5.5s/q)
+2026-09-23 15:11:09,264 INFO   150/300  (5.5s/q)
+2026-09-23 15:13:26,826 INFO   175/300  (5.5s/q)
+2026-09-23 15:15:48,416 INFO   200/300  (5.5s/q)
+2026-09-23 15:18:02,937 INFO   225/300  (5.5s/q)
+2026-09-23 15:20:24,985 INFO   250/300  (5.5s/q)
+2026-09-23 15:22:39,362 INFO   275/300  (5.5s/q)
+2026-09-23 15:25:11,332 INFO   300/300  (5.6s/q)
+2026-09-23 15:25:11,431 INFO ── MH.dev / s_disambiguate → judge=constant:VAGUE|policy=typed
+2026-09-23 15:25:11,466 INFO judge=constant:VAGUE|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 15:26:35,570 INFO   25/300  (3.4s/q)
+2026-09-23 15:27:54,375 INFO   50/300  (3.3s/q)
+2026-09-23 15:29:22,131 INFO   75/300  (3.3s/q)
+2026-09-23 15:30:48,018 INFO   100/300  (3.4s/q)
+2026-09-23 15:32:11,768 INFO   125/300  (3.4s/q)
+2026-09-23 15:33:39,957 INFO   150/300  (3.4s/q)
+2026-09-23 15:35:05,168 INFO   175/300  (3.4s/q)
+2026-09-23 15:36:23,272 INFO   200/300  (3.4s/q)
+2026-09-23 15:37:44,772 INFO   225/300  (3.3s/q)
+2026-09-23 15:39:02,587 INFO   250/300  (3.3s/q)
+2026-09-23 15:40:18,887 INFO   275/300  (3.3s/q)
+2026-09-23 15:41:36,894 INFO   300/300  (3.3s/q)
+2026-09-23 15:41:36,941 INFO ── MH.dev / s_anchor → judge=constant:INSUFFICIENT|policy=typed
+2026-09-23 15:41:36,985 INFO judge=constant:INSUFFICIENT|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 15:42:56,426 INFO   25/300  (3.2s/q)
+2026-09-23 15:44:18,381 INFO   50/300  (3.2s/q)
+2026-09-23 15:45:35,799 INFO   75/300  (3.2s/q)
+2026-09-23 15:46:56,573 INFO   100/300  (3.2s/q)
+2026-09-23 15:48:13,777 INFO   125/300  (3.2s/q)
+2026-09-23 15:49:43,254 INFO   150/300  (3.2s/q)
+2026-09-23 15:51:06,792 INFO   175/300  (3.3s/q)
+2026-09-23 15:52:30,033 INFO   200/300  (3.3s/q)
+2026-09-23 15:53:42,190 INFO   225/300  (3.2s/q)
+2026-09-23 15:55:00,794 INFO   250/300  (3.2s/q)
+2026-09-23 15:56:22,517 INFO   275/300  (3.2s/q)
+2026-09-23 15:57:44,096 INFO   300/300  (3.2s/q)
+2026-09-23 15:57:44,135 INFO ── MH.dev / j_oracle → judge=oracle|policy=typed
+2026-09-23 15:57:44,190 INFO judge=oracle|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 15:58:27,571 INFO   25/300  (1.7s/q)
+2026-09-23 15:59:12,462 INFO   50/300  (1.8s/q)
+2026-09-23 16:00:01,423 INFO   75/300  (1.8s/q)
+2026-09-23 16:00:49,047 INFO   100/300  (1.8s/q)
+2026-09-23 16:01:32,451 INFO   125/300  (1.8s/q)
+2026-09-23 16:02:19,606 INFO   150/300  (1.8s/q)
+2026-09-23 16:03:03,617 INFO   175/300  (1.8s/q)
+2026-09-23 16:03:51,995 INFO   200/300  (1.8s/q)
+2026-09-23 16:04:40,315 INFO   225/300  (1.8s/q)
+2026-09-23 16:05:24,271 INFO   250/300  (1.8s/q)
+2026-09-23 16:06:13,944 INFO   275/300  (1.9s/q)
+2026-09-23 16:07:01,327 INFO   300/300  (1.9s/q)
+2026-09-23 16:07:01,331 INFO ── MH.dev / j_random → judge=random|policy=typed
+2026-09-23 16:07:01,358 INFO judge=random|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 16:07:30,986 INFO   25/300  (1.2s/q)
+2026-09-23 16:08:05,422 INFO   50/300  (1.3s/q)
+2026-09-23 16:08:33,209 INFO   75/300  (1.2s/q)
+2026-09-23 16:09:01,030 INFO   100/300  (1.2s/q)
+2026-09-23 16:09:28,783 INFO   125/300  (1.2s/q)
+2026-09-23 16:10:00,408 INFO   150/300  (1.2s/q)
+2026-09-23 16:10:34,155 INFO   175/300  (1.2s/q)
+2026-09-23 16:11:14,417 INFO   200/300  (1.3s/q)
+2026-09-23 16:11:47,626 INFO   225/300  (1.3s/q)
+2026-09-23 16:12:19,143 INFO   250/300  (1.3s/q)
+2026-09-23 16:12:51,463 INFO   275/300  (1.3s/q)
+2026-09-23 16:13:23,020 INFO   300/300  (1.3s/q)
+2026-09-23 16:13:23,024 INFO ── MH.dev / j_llm → judge=llm|policy=typed
+2026-09-23 16:13:23,050 INFO judge=llm|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 16:14:41,532 INFO   25/300  (3.1s/q)
+2026-09-23 16:15:51,644 INFO   50/300  (3.0s/q)
+2026-09-23 16:16:42,338 INFO   75/300  (2.7s/q)
+2026-09-23 16:17:47,160 INFO   100/300  (2.6s/q)
+2026-09-23 16:18:40,847 INFO   125/300  (2.5s/q)
+2026-09-23 16:19:33,347 INFO   150/300  (2.5s/q)
+2026-09-23 16:20:23,494 INFO   175/300  (2.4s/q)
+2026-09-23 16:21:10,653 INFO   200/300  (2.3s/q)
+2026-09-23 16:22:01,006 INFO   225/300  (2.3s/q)
+2026-09-23 16:22:46,618 INFO   250/300  (2.3s/q)
+2026-09-23 16:23:31,390 INFO   275/300  (2.2s/q)
+2026-09-23 16:24:16,253 INFO   300/300  (2.2s/q)
+2026-09-23 16:24:16,377 INFO ── MIXED.dev / no_corr_k5 → none|k=5
+2026-09-23 16:24:16,521 INFO none|k=5 | MIXED.dev | 0 done, 380 todo
+2026-09-23 16:24:16,521 INFO [corpus] a libertar multihop para carregar single
+2026-09-23 16:24:18,884 INFO [single] loaded 71239 passages
+2026-09-23 16:25:25,671 INFO   25/380  (2.8s/q)
+2026-09-23 16:26:24,976 INFO   50/380  (2.6s/q)
+2026-09-23 16:27:16,592 INFO   75/380  (2.4s/q)
+2026-09-23 16:28:14,389 INFO   100/380  (2.4s/q)
+2026-09-23 16:29:02,002 INFO   125/380  (2.3s/q)
+2026-09-23 16:29:49,479 INFO   150/380  (2.2s/q)
+2026-09-23 16:30:18,980 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 16:30:19,747 INFO [multihop] loaded 82728 passages
+2026-09-23 16:30:47,798 INFO   175/380  (2.2s/q)
+2026-09-23 16:31:53,139 INFO   200/380  (2.3s/q)
+2026-09-23 16:33:03,869 INFO   225/380  (2.3s/q)
+2026-09-23 16:34:14,030 INFO   250/380  (2.4s/q)
+2026-09-23 16:35:04,475 INFO   275/380  (2.4s/q)
+2026-09-23 16:35:54,926 INFO   300/380  (2.3s/q)
+2026-09-23 16:36:43,739 INFO   325/380  (2.3s/q)
+2026-09-23 16:36:53,062 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 16:36:53,422 INFO [ambig] loaded 34593 passages
+2026-09-23 16:37:32,876 INFO   350/380  (2.3s/q)
+2026-09-23 16:38:16,544 INFO   375/380  (2.2s/q)
+2026-09-23 16:38:26,053 INFO ── MIXED.dev / no_corr_k5_ab → none|k=5+abstain
+2026-09-23 16:38:26,158 INFO none|k=5+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 16:38:26,158 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 16:38:26,849 INFO [single] loaded 71239 passages
+2026-09-23 16:39:20,003 INFO   25/380  (2.2s/q)
+2026-09-23 16:40:07,768 INFO   50/380  (2.0s/q)
+2026-09-23 16:40:57,272 INFO   75/380  (2.0s/q)
+2026-09-23 16:41:47,820 INFO   100/380  (2.0s/q)
+2026-09-23 16:42:31,595 INFO   125/380  (2.0s/q)
+2026-09-23 16:43:23,198 INFO   150/380  (2.0s/q)
+2026-09-23 16:43:55,294 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 16:43:56,069 INFO [multihop] loaded 82728 passages
+2026-09-23 16:44:17,279 INFO   175/380  (2.0s/q)
+2026-09-23 16:45:10,551 INFO   200/380  (2.0s/q)
+2026-09-23 16:45:56,278 INFO   225/380  (2.0s/q)
+2026-09-23 16:46:45,152 INFO   250/380  (2.0s/q)
+2026-09-23 16:47:35,158 INFO   275/380  (2.0s/q)
+2026-09-23 16:48:24,782 INFO   300/380  (2.0s/q)
+2026-09-23 16:49:11,494 INFO   325/380  (2.0s/q)
+2026-09-23 16:49:20,301 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 16:49:20,645 INFO [ambig] loaded 34593 passages
+2026-09-23 16:49:50,630 INFO   350/380  (2.0s/q)
+2026-09-23 16:50:24,388 INFO   375/380  (1.9s/q)
+2026-09-23 16:50:31,243 INFO ── MIXED.dev / s_rewrite_ab → judge=constant:NONE|policy=typed+abstain
+2026-09-23 16:50:31,351 INFO judge=constant:NONE|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 16:50:31,351 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 16:50:32,038 INFO [single] loaded 71239 passages
+2026-09-23 16:51:48,877 INFO   25/380  (3.1s/q)
+2026-09-23 16:53:07,263 INFO   50/380  (3.1s/q)
+2026-09-23 16:54:25,611 INFO   75/380  (3.1s/q)
+2026-09-23 16:55:43,427 INFO   100/380  (3.1s/q)
+2026-09-23 16:56:59,604 INFO   125/380  (3.1s/q)
+2026-09-23 16:58:24,420 INFO   150/380  (3.2s/q)
+2026-09-23 16:59:16,959 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 16:59:17,694 INFO [multihop] loaded 82728 passages
+2026-09-23 16:59:53,577 INFO   175/380  (3.2s/q)
+2026-09-23 17:01:21,458 INFO   200/380  (3.3s/q)
+2026-09-23 17:02:47,753 INFO   225/380  (3.3s/q)
+2026-09-23 17:04:17,038 INFO   250/380  (3.3s/q)
+2026-09-23 17:05:40,744 INFO   275/380  (3.3s/q)
+2026-09-23 17:07:00,474 INFO   300/380  (3.3s/q)
+2026-09-23 17:08:26,534 INFO   325/380  (3.3s/q)
+2026-09-23 17:08:43,010 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 17:08:43,560 INFO [ambig] loaded 34593 passages
+2026-09-23 17:09:34,999 INFO   350/380  (3.3s/q)
+2026-09-23 17:10:42,565 INFO   375/380  (3.2s/q)
+2026-09-23 17:10:56,706 INFO ── MIXED.dev / s_decompose_ab → judge=constant:COMPLEX|policy=typed+abstain
+2026-09-23 17:10:56,797 INFO judge=constant:COMPLEX|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 17:10:56,797 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 17:10:57,530 INFO [single] loaded 71239 passages
+2026-09-23 17:13:00,410 INFO   25/380  (4.9s/q)
+2026-09-23 17:15:00,569 INFO   50/380  (4.9s/q)
+2026-09-23 17:17:05,668 INFO   75/380  (4.9s/q)
+2026-09-23 17:19:12,221 INFO   100/380  (5.0s/q)
+2026-09-23 17:21:22,219 INFO   125/380  (5.0s/q)
+2026-09-23 17:23:32,889 INFO   150/380  (5.0s/q)
+2026-09-23 17:24:53,550 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 17:24:54,317 INFO [multihop] loaded 82728 passages
+2026-09-23 17:25:55,852 INFO   175/380  (5.1s/q)
+2026-09-23 17:28:14,386 INFO   200/380  (5.2s/q)
+2026-09-23 17:30:45,517 INFO   225/380  (5.3s/q)
+2026-09-23 17:32:49,863 INFO   250/380  (5.3s/q)
+2026-09-23 17:35:05,137 INFO   275/380  (5.3s/q)
+2026-09-23 17:37:28,538 INFO   300/380  (5.3s/q)
+2026-09-23 17:39:37,095 INFO   325/380  (5.3s/q)
+2026-09-23 17:40:06,359 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 17:40:06,715 INFO [ambig] loaded 34593 passages
+2026-09-23 17:41:27,165 INFO   350/380  (5.2s/q)
+2026-09-23 17:43:07,513 INFO   375/380  (5.1s/q)
+2026-09-23 17:43:25,505 INFO ── MIXED.dev / s_decomp_iter_ab → judge=constant:COMPLEX|policy=typed_iter+abstain
+2026-09-23 17:43:25,613 INFO judge=constant:COMPLEX|policy=typed_iter+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 17:43:25,614 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 17:43:26,321 INFO [single] loaded 71239 passages
+2026-09-23 17:45:37,389 INFO   25/380  (5.3s/q)
+2026-09-23 17:47:45,772 INFO   50/380  (5.2s/q)
+2026-09-23 17:50:05,403 INFO   75/380  (5.3s/q)
+2026-09-23 17:52:15,718 INFO   100/380  (5.3s/q)
+2026-09-23 17:54:29,176 INFO   125/380  (5.3s/q)
+2026-09-23 17:56:42,061 INFO   150/380  (5.3s/q)
+2026-09-23 17:58:00,609 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 17:58:01,407 INFO [multihop] loaded 82728 passages
+2026-09-23 17:59:00,942 INFO   175/380  (5.3s/q)
+2026-09-23 18:01:20,151 INFO   200/380  (5.4s/q)
+2026-09-23 18:03:33,301 INFO   225/380  (5.4s/q)
+2026-09-23 18:05:44,765 INFO   250/380  (5.4s/q)
+2026-09-23 18:07:55,369 INFO   275/380  (5.3s/q)
+2026-09-23 18:10:17,015 INFO   300/380  (5.4s/q)
+2026-09-23 18:12:46,727 INFO   325/380  (5.4s/q)
+2026-09-23 18:13:16,923 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 18:13:17,446 INFO [ambig] loaded 34593 passages
+2026-09-23 18:14:44,836 INFO   350/380  (5.4s/q)
+2026-09-23 18:16:29,991 INFO   375/380  (5.3s/q)
+2026-09-23 18:16:51,493 INFO ── MIXED.dev / s_disambiguate_ab → judge=constant:VAGUE|policy=typed+abstain
+2026-09-23 18:16:51,605 INFO judge=constant:VAGUE|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 18:16:51,605 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 18:16:52,307 INFO [single] loaded 71239 passages
+2026-09-23 18:18:12,654 INFO   25/380  (3.2s/q)
+2026-09-23 18:19:34,292 INFO   50/380  (3.3s/q)
+2026-09-23 18:21:04,408 INFO   75/380  (3.4s/q)
+2026-09-23 18:22:29,969 INFO   100/380  (3.4s/q)
+2026-09-23 18:23:50,157 INFO   125/380  (3.3s/q)
+2026-09-23 18:25:01,563 INFO   150/380  (3.3s/q)
+2026-09-23 18:25:46,761 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 18:25:47,496 INFO [multihop] loaded 82728 passages
+2026-09-23 18:26:22,825 INFO   175/380  (3.3s/q)
+2026-09-23 18:27:52,369 INFO   200/380  (3.3s/q)
+2026-09-23 18:29:13,722 INFO   225/380  (3.3s/q)
+2026-09-23 18:30:30,299 INFO   250/380  (3.3s/q)
+2026-09-23 18:31:43,849 INFO   275/380  (3.2s/q)
+2026-09-23 18:33:10,961 INFO   300/380  (3.3s/q)
+2026-09-23 18:34:36,393 INFO   325/380  (3.3s/q)
+2026-09-23 18:34:52,832 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 18:34:53,209 INFO [ambig] loaded 34593 passages
+2026-09-23 18:35:40,626 INFO   350/380  (3.2s/q)
+2026-09-23 18:36:44,199 INFO   375/380  (3.2s/q)
+2026-09-23 18:36:57,220 INFO ── MIXED.dev / s_anchor_ab → judge=constant:INSUFFICIENT|policy=typed+abstain
+2026-09-23 18:36:57,323 INFO judge=constant:INSUFFICIENT|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 18:36:57,323 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 18:36:58,021 INFO [single] loaded 71239 passages
+2026-09-23 18:38:09,364 INFO   25/380  (2.9s/q)
+2026-09-23 18:39:18,881 INFO   50/380  (2.8s/q)
+2026-09-23 18:40:29,431 INFO   75/380  (2.8s/q)
+2026-09-23 18:41:39,395 INFO   100/380  (2.8s/q)
+2026-09-23 18:42:54,857 INFO   125/380  (2.9s/q)
+2026-09-23 18:44:09,079 INFO   150/380  (2.9s/q)
+2026-09-23 18:44:58,498 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 18:44:59,228 INFO [multihop] loaded 82728 passages
+2026-09-23 18:45:34,824 INFO   175/380  (3.0s/q)
+2026-09-23 18:46:54,745 INFO   200/380  (3.0s/q)
+2026-09-23 18:48:08,973 INFO   225/380  (3.0s/q)
+2026-09-23 18:49:17,594 INFO   250/380  (3.0s/q)
+2026-09-23 18:50:33,197 INFO   275/380  (3.0s/q)
+2026-09-23 18:51:54,892 INFO   300/380  (3.0s/q)
+2026-09-23 18:53:15,152 INFO   325/380  (3.0s/q)
+2026-09-23 18:53:31,333 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 18:53:31,675 INFO [ambig] loaded 34593 passages
+2026-09-23 18:54:17,507 INFO   350/380  (3.0s/q)
+2026-09-23 18:55:16,711 INFO   375/380  (2.9s/q)
+2026-09-23 18:55:27,175 INFO ── MIXED.dev / j_oracle_ab → judge=oracle|policy=typed+abstain
+2026-09-23 18:55:27,255 INFO judge=oracle|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 18:55:27,255 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 18:55:27,951 INFO [single] loaded 71239 passages
+2026-09-23 18:55:56,046 INFO   25/380  (1.2s/q)
+2026-09-23 18:56:20,736 INFO   50/380  (1.1s/q)
+2026-09-23 18:56:45,409 INFO   75/380  (1.0s/q)
+2026-09-23 18:57:08,759 INFO   100/380  (1.0s/q)
+2026-09-23 18:57:31,278 INFO   125/380  (1.0s/q)
+2026-09-23 18:57:54,176 INFO   150/380  (1.0s/q)
+2026-09-23 18:58:08,366 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 18:58:09,092 INFO [multihop] loaded 82728 passages
+2026-09-23 18:58:32,890 INFO   175/380  (1.1s/q)
+2026-09-23 18:59:18,896 INFO   200/380  (1.2s/q)
+2026-09-23 19:00:07,330 INFO   225/380  (1.2s/q)
+2026-09-23 19:00:53,095 INFO   250/380  (1.3s/q)
+2026-09-23 19:01:20,345 INFO   275/380  (1.3s/q)
+2026-09-23 19:01:44,438 INFO   300/380  (1.3s/q)
+2026-09-23 19:02:09,737 INFO   325/380  (1.2s/q)
+2026-09-23 19:02:14,816 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 19:02:15,153 INFO [ambig] loaded 34593 passages
+2026-09-23 19:02:26,952 INFO   350/380  (1.2s/q)
+2026-09-23 19:02:41,979 INFO   375/380  (1.2s/q)
+2026-09-23 19:02:44,717 INFO ── MIXED.dev / j_random_ab → judge=random|policy=typed+abstain
+2026-09-23 19:02:44,799 INFO judge=random|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 19:02:44,799 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 19:02:45,502 INFO [single] loaded 71239 passages
+2026-09-23 19:03:15,188 INFO   25/380  (1.2s/q)
+2026-09-23 19:03:45,360 INFO   50/380  (1.2s/q)
+2026-09-23 19:04:12,761 INFO   75/380  (1.2s/q)
+2026-09-23 19:04:39,483 INFO   100/380  (1.1s/q)
+2026-09-23 19:05:12,031 INFO   125/380  (1.2s/q)
+2026-09-23 19:05:41,555 INFO   150/380  (1.2s/q)
+2026-09-23 19:05:59,262 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 19:05:59,996 INFO [multihop] loaded 82728 passages
+2026-09-23 19:06:16,500 INFO   175/380  (1.2s/q)
+2026-09-23 19:06:49,872 INFO   200/380  (1.2s/q)
+2026-09-23 19:07:27,160 INFO   225/380  (1.3s/q)
+2026-09-23 19:08:01,175 INFO   250/380  (1.3s/q)
+2026-09-23 19:08:34,773 INFO   275/380  (1.3s/q)
+2026-09-23 19:09:04,464 INFO   300/380  (1.3s/q)
+2026-09-23 19:09:38,248 INFO   325/380  (1.3s/q)
+2026-09-23 19:09:43,118 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 19:09:43,455 INFO [ambig] loaded 34593 passages
+2026-09-23 19:09:59,516 INFO   350/380  (1.2s/q)
+2026-09-23 19:10:16,338 INFO   375/380  (1.2s/q)
+2026-09-23 19:10:19,912 INFO ── MIXED.dev / j_llm_ab → judge=llm|policy=typed+abstain
+2026-09-23 19:10:20,013 INFO judge=llm|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 19:10:20,014 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 19:10:20,704 INFO [single] loaded 71239 passages
+2026-09-23 19:11:17,143 INFO   25/380  (2.3s/q)
+2026-09-23 19:12:20,473 INFO   50/380  (2.4s/q)
+2026-09-23 19:13:11,949 INFO   75/380  (2.3s/q)
+2026-09-23 19:13:59,727 INFO   100/380  (2.2s/q)
+2026-09-23 19:14:43,924 INFO   125/380  (2.1s/q)
+2026-09-23 19:15:31,086 INFO   150/380  (2.1s/q)
+2026-09-23 19:15:58,875 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 19:15:59,620 INFO [multihop] loaded 82728 passages
+2026-09-23 19:16:23,842 INFO   175/380  (2.1s/q)
+2026-09-23 19:17:24,023 INFO   200/380  (2.1s/q)
+2026-09-23 19:18:22,727 INFO   225/380  (2.1s/q)
+2026-09-23 19:19:11,167 INFO   250/380  (2.1s/q)
+2026-09-23 19:19:58,060 INFO   275/380  (2.1s/q)
+2026-09-23 19:20:44,011 INFO   300/380  (2.1s/q)
+2026-09-23 19:21:29,612 INFO   325/380  (2.1s/q)
+2026-09-23 19:21:38,773 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 19:21:39,181 INFO [ambig] loaded 34593 passages
+2026-09-23 19:22:07,021 INFO   350/380  (2.0s/q)
+2026-09-23 19:22:40,244 INFO   375/380  (2.0s/q)
+2026-09-23 19:22:47 ==== OK ====
+2026-09-23 19:22:54 ==== qwen2p5-7b | dev | MH MIXED ====
+2026-09-23 19:22:55,050 INFO ── MH.dev / no_corr → none|k=3
+2026-09-23 19:22:55,079 INFO none|k=3 | MH.dev | 0 done, 300 todo
+2026-09-23 19:22:56,056 INFO [multihop] loaded 82728 passages
+2026-09-23 19:22:56,361 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-23 19:22:56,567 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-23 19:23:55,110 INFO   25/300  (2.4s/q)
+2026-09-23 19:24:22,664 INFO   50/300  (1.8s/q)
+2026-09-23 19:24:49,757 INFO   75/300  (1.5s/q)
+2026-09-23 19:25:17,618 INFO   100/300  (1.4s/q)
+2026-09-23 19:25:44,658 INFO   125/300  (1.4s/q)
+2026-09-23 19:26:12,599 INFO   150/300  (1.3s/q)
+2026-09-23 19:26:40,580 INFO   175/300  (1.3s/q)
+2026-09-23 19:27:08,030 INFO   200/300  (1.3s/q)
+2026-09-23 19:27:36,368 INFO   225/300  (1.3s/q)
+2026-09-23 19:28:06,207 INFO   250/300  (1.2s/q)
+2026-09-23 19:28:33,986 INFO   275/300  (1.2s/q)
+2026-09-23 19:29:04,664 INFO   300/300  (1.2s/q)
+2026-09-23 19:29:04,685 INFO ── MH.dev / no_corr_k5 → none|k=5
+2026-09-23 19:29:04,712 INFO none|k=5 | MH.dev | 0 done, 300 todo
+2026-09-23 19:29:44,899 INFO   25/300  (1.6s/q)
+2026-09-23 19:30:24,004 INFO   50/300  (1.6s/q)
+2026-09-23 19:31:05,138 INFO   75/300  (1.6s/q)
+2026-09-23 19:31:47,908 INFO   100/300  (1.6s/q)
+2026-09-23 19:32:28,740 INFO   125/300  (1.6s/q)
+2026-09-23 19:33:10,342 INFO   150/300  (1.6s/q)
+2026-09-23 19:33:51,791 INFO   175/300  (1.6s/q)
+2026-09-23 19:34:35,045 INFO   200/300  (1.7s/q)
+2026-09-23 19:35:17,122 INFO   225/300  (1.7s/q)
+2026-09-23 19:36:02,138 INFO   250/300  (1.7s/q)
+2026-09-23 19:36:44,361 INFO   275/300  (1.7s/q)
+2026-09-23 19:37:28,619 INFO   300/300  (1.7s/q)
+2026-09-23 19:37:28,621 INFO ── MH.dev / s_rewrite → judge=constant:NONE|policy=typed
+2026-09-23 19:37:28,646 INFO judge=constant:NONE|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 19:37:29,908 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-23 19:38:33,272 INFO   25/300  (2.6s/q)
+2026-09-23 19:39:39,934 INFO   50/300  (2.6s/q)
+2026-09-23 19:40:45,688 INFO   75/300  (2.6s/q)
+2026-09-23 19:41:54,113 INFO   100/300  (2.7s/q)
+2026-09-23 19:42:57,616 INFO   125/300  (2.6s/q)
+2026-09-23 19:44:09,364 INFO   150/300  (2.7s/q)
+2026-09-23 19:45:16,278 INFO   175/300  (2.7s/q)
+2026-09-23 19:46:22,924 INFO   200/300  (2.7s/q)
+2026-09-23 19:47:32,091 INFO   225/300  (2.7s/q)
+2026-09-23 19:48:44,213 INFO   250/300  (2.7s/q)
+2026-09-23 19:49:54,127 INFO   275/300  (2.7s/q)
+2026-09-23 19:51:04,697 INFO   300/300  (2.7s/q)
+2026-09-23 19:51:04,700 INFO ── MH.dev / s_decompose → judge=constant:COMPLEX|policy=typed
+2026-09-23 19:51:06,226 INFO judge=constant:COMPLEX|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 19:52:45,514 INFO   25/300  (4.0s/q)
+2026-09-23 19:54:25,061 INFO   50/300  (4.0s/q)
+2026-09-23 19:56:05,410 INFO   75/300  (4.0s/q)
+2026-09-23 19:57:41,832 INFO   100/300  (4.0s/q)
+2026-09-23 19:59:18,476 INFO   125/300  (3.9s/q)
+2026-09-23 20:00:58,387 INFO   150/300  (3.9s/q)
+2026-09-23 20:02:38,054 INFO   175/300  (4.0s/q)
+2026-09-23 20:04:25,293 INFO   200/300  (4.0s/q)
+2026-09-23 20:05:59,342 INFO   225/300  (4.0s/q)
+2026-09-23 20:07:46,524 INFO   250/300  (4.0s/q)
+2026-09-23 20:09:28,758 INFO   275/300  (4.0s/q)
+2026-09-23 20:11:15,031 INFO   300/300  (4.0s/q)
+2026-09-23 20:11:15,039 INFO ── MH.dev / s_decomp_iter → judge=constant:COMPLEX|policy=typed_iter
+2026-09-23 20:11:15,067 INFO judge=constant:COMPLEX|policy=typed_iter | MH.dev | 0 done, 300 todo
+2026-09-23 20:13:06,138 INFO   25/300  (4.4s/q)
+2026-09-23 20:15:09,649 INFO   50/300  (4.7s/q)
+2026-09-23 20:17:08,609 INFO   75/300  (4.7s/q)
+2026-09-23 20:19:05,947 INFO   100/300  (4.7s/q)
+2026-09-23 20:21:09,324 INFO   125/300  (4.8s/q)
+2026-09-23 20:23:21,521 INFO   150/300  (4.8s/q)
+2026-09-23 20:25:26,052 INFO   175/300  (4.9s/q)
+2026-09-23 20:27:37,077 INFO   200/300  (4.9s/q)
+2026-09-23 20:29:33,589 INFO   225/300  (4.9s/q)
+2026-09-23 20:31:43,355 INFO   250/300  (4.9s/q)
+2026-09-23 20:33:49,701 INFO   275/300  (4.9s/q)
+2026-09-23 20:36:08,427 INFO   300/300  (5.0s/q)
+2026-09-23 20:36:08,528 INFO ── MH.dev / s_disambiguate → judge=constant:VAGUE|policy=typed
+2026-09-23 20:36:08,588 INFO judge=constant:VAGUE|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 20:37:18,890 INFO   25/300  (2.8s/q)
+2026-09-23 20:38:31,945 INFO   50/300  (2.9s/q)
+2026-09-23 20:39:44,819 INFO   75/300  (2.9s/q)
+2026-09-23 20:40:55,940 INFO   100/300  (2.9s/q)
+2026-09-23 20:42:00,669 INFO   125/300  (2.8s/q)
+2026-09-23 20:43:12,747 INFO   150/300  (2.8s/q)
+2026-09-23 20:44:22,942 INFO   175/300  (2.8s/q)
+2026-09-23 20:45:36,328 INFO   200/300  (2.8s/q)
+2026-09-23 20:46:45,194 INFO   225/300  (2.8s/q)
+2026-09-23 20:47:55,041 INFO   250/300  (2.8s/q)
+2026-09-23 20:49:07,289 INFO   275/300  (2.8s/q)
+2026-09-23 20:50:27,950 INFO   300/300  (2.9s/q)
+2026-09-23 20:50:27,963 INFO ── MH.dev / s_anchor → judge=constant:INSUFFICIENT|policy=typed
+2026-09-23 20:50:27,991 INFO judge=constant:INSUFFICIENT|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 20:51:32,565 INFO   25/300  (2.6s/q)
+2026-09-23 20:52:39,252 INFO   50/300  (2.6s/q)
+2026-09-23 20:53:54,239 INFO   75/300  (2.7s/q)
+2026-09-23 20:55:13,221 INFO   100/300  (2.9s/q)
+2026-09-23 20:56:23,514 INFO   125/300  (2.8s/q)
+2026-09-23 20:57:39,217 INFO   150/300  (2.9s/q)
+2026-09-23 20:58:44,767 INFO   175/300  (2.8s/q)
+2026-09-23 20:59:49,323 INFO   200/300  (2.8s/q)
+2026-09-23 21:00:54,672 INFO   225/300  (2.8s/q)
+2026-09-23 21:02:07,679 INFO   250/300  (2.8s/q)
+2026-09-23 21:03:12,627 INFO   275/300  (2.8s/q)
+2026-09-23 21:04:21,887 INFO   300/300  (2.8s/q)
+2026-09-23 21:04:21,912 INFO ── MH.dev / j_oracle → judge=oracle|policy=typed
+2026-09-23 21:04:21,946 INFO judge=oracle|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 21:05:00,372 INFO   25/300  (1.5s/q)
+2026-09-23 21:05:40,087 INFO   50/300  (1.6s/q)
+2026-09-23 21:06:19,716 INFO   75/300  (1.6s/q)
+2026-09-23 21:06:59,832 INFO   100/300  (1.6s/q)
+2026-09-23 21:07:38,723 INFO   125/300  (1.6s/q)
+2026-09-23 21:08:20,020 INFO   150/300  (1.6s/q)
+2026-09-23 21:09:04,275 INFO   175/300  (1.6s/q)
+2026-09-23 21:09:46,645 INFO   200/300  (1.6s/q)
+2026-09-23 21:10:27,923 INFO   225/300  (1.6s/q)
+2026-09-23 21:11:10,477 INFO   250/300  (1.6s/q)
+2026-09-23 21:11:50,151 INFO   275/300  (1.6s/q)
+2026-09-23 21:12:32,359 INFO   300/300  (1.6s/q)
+2026-09-23 21:12:32,363 INFO ── MH.dev / j_random → judge=random|policy=typed
+2026-09-23 21:12:32,389 INFO judge=random|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 21:13:02,789 INFO   25/300  (1.2s/q)
+2026-09-23 21:13:33,597 INFO   50/300  (1.2s/q)
+2026-09-23 21:13:59,401 INFO   75/300  (1.2s/q)
+2026-09-23 21:14:27,681 INFO   100/300  (1.2s/q)
+2026-09-23 21:14:56,325 INFO   125/300  (1.2s/q)
+2026-09-23 21:15:26,422 INFO   150/300  (1.2s/q)
+2026-09-23 21:15:58,490 INFO   175/300  (1.2s/q)
+2026-09-23 21:16:30,956 INFO   200/300  (1.2s/q)
+2026-09-23 21:16:59,479 INFO   225/300  (1.2s/q)
+2026-09-23 21:17:34,674 INFO   250/300  (1.2s/q)
+2026-09-23 21:18:04,750 INFO   275/300  (1.2s/q)
+2026-09-23 21:18:36,296 INFO   300/300  (1.2s/q)
+2026-09-23 21:18:36,297 INFO ── MH.dev / j_llm → judge=llm|policy=typed
+2026-09-23 21:18:36,341 INFO judge=llm|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-23 21:19:31,321 INFO   25/300  (2.2s/q)
+2026-09-23 21:20:20,245 INFO   50/300  (2.1s/q)
+2026-09-23 21:21:10,650 INFO   75/300  (2.1s/q)
+2026-09-23 21:22:08,807 INFO   100/300  (2.1s/q)
+2026-09-23 21:22:56,354 INFO   125/300  (2.1s/q)
+2026-09-23 21:23:44,757 INFO   150/300  (2.1s/q)
+2026-09-23 21:24:31,961 INFO   175/300  (2.0s/q)
+2026-09-23 21:25:19,497 INFO   200/300  (2.0s/q)
+2026-09-23 21:26:05,853 INFO   225/300  (2.0s/q)
+2026-09-23 21:26:51,656 INFO   250/300  (2.0s/q)
+2026-09-23 21:27:36,631 INFO   275/300  (2.0s/q)
+2026-09-23 21:28:22,297 INFO   300/300  (2.0s/q)
+2026-09-23 21:28:22,301 INFO ── MIXED.dev / no_corr_k5 → none|k=5
+2026-09-23 21:28:22,416 INFO none|k=5 | MIXED.dev | 0 done, 380 todo
+2026-09-23 21:28:22,417 INFO [corpus] a libertar multihop para carregar single
+2026-09-23 21:28:24,733 INFO [single] loaded 71239 passages
+2026-09-23 21:29:08,382 INFO   25/380  (1.8s/q)
+2026-09-23 21:29:51,516 INFO   50/380  (1.8s/q)
+2026-09-23 21:30:32,179 INFO   75/380  (1.7s/q)
+2026-09-23 21:31:14,115 INFO   100/380  (1.7s/q)
+2026-09-23 21:31:55,652 INFO   125/380  (1.7s/q)
+2026-09-23 21:32:39,791 INFO   150/380  (1.7s/q)
+2026-09-23 21:33:07,185 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 21:33:07,940 INFO [multihop] loaded 82728 passages
+2026-09-23 21:33:26,809 INFO   175/380  (1.7s/q)
+2026-09-23 21:34:09,277 INFO   200/380  (1.7s/q)
+2026-09-23 21:34:52,197 INFO   225/380  (1.7s/q)
+2026-09-23 21:35:34,905 INFO   250/380  (1.7s/q)
+2026-09-23 21:36:17,459 INFO   275/380  (1.7s/q)
+2026-09-23 21:36:59,798 INFO   300/380  (1.7s/q)
+2026-09-23 21:37:44,116 INFO   325/380  (1.7s/q)
+2026-09-23 21:37:53,520 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 21:37:53,860 INFO [ambig] loaded 34593 passages
+2026-09-23 21:38:20,663 INFO   350/380  (1.7s/q)
+2026-09-23 21:38:54,145 INFO   375/380  (1.7s/q)
+2026-09-23 21:39:00,849 INFO ── MIXED.dev / no_corr_k5_ab → none|k=5+abstain
+2026-09-23 21:39:00,932 INFO none|k=5+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 21:39:00,932 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 21:39:01,633 INFO [single] loaded 71239 passages
+2026-09-23 21:39:45,451 INFO   25/380  (1.8s/q)
+2026-09-23 21:40:28,269 INFO   50/380  (1.7s/q)
+2026-09-23 21:41:10,445 INFO   75/380  (1.7s/q)
+2026-09-23 21:41:52,427 INFO   100/380  (1.7s/q)
+2026-09-23 21:42:33,602 INFO   125/380  (1.7s/q)
+2026-09-23 21:43:14,802 INFO   150/380  (1.7s/q)
+2026-09-23 21:43:41,297 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 21:43:42,053 INFO [multihop] loaded 82728 passages
+2026-09-23 21:44:00,134 INFO   175/380  (1.7s/q)
+2026-09-23 21:44:44,096 INFO   200/380  (1.7s/q)
+2026-09-23 21:45:31,129 INFO   225/380  (1.7s/q)
+2026-09-23 21:46:14,324 INFO   250/380  (1.7s/q)
+2026-09-23 21:46:59,507 INFO   275/380  (1.7s/q)
+2026-09-23 21:47:45,738 INFO   300/380  (1.7s/q)
+2026-09-23 21:48:31,188 INFO   325/380  (1.8s/q)
+2026-09-23 21:48:39,446 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 21:48:39,991 INFO [ambig] loaded 34593 passages
+2026-09-23 21:49:09,460 INFO   350/380  (1.7s/q)
+2026-09-23 21:49:41,268 INFO   375/380  (1.7s/q)
+2026-09-23 21:49:47,752 INFO ── MIXED.dev / s_rewrite_ab → judge=constant:NONE|policy=typed+abstain
+2026-09-23 21:49:47,858 INFO judge=constant:NONE|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 21:49:47,858 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 21:49:48,559 INFO [single] loaded 71239 passages
+2026-09-23 21:50:59,744 INFO   25/380  (2.9s/q)
+2026-09-23 21:52:16,399 INFO   50/380  (3.0s/q)
+2026-09-23 21:53:29,672 INFO   75/380  (3.0s/q)
+2026-09-23 21:54:44,374 INFO   100/380  (3.0s/q)
+2026-09-23 21:56:00,315 INFO   125/380  (3.0s/q)
+2026-09-23 21:57:13,550 INFO   150/380  (3.0s/q)
+2026-09-23 21:58:00,358 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 21:58:01,102 INFO [multihop] loaded 82728 passages
+2026-09-23 21:58:33,194 INFO   175/380  (3.0s/q)
+2026-09-23 21:59:48,445 INFO   200/380  (3.0s/q)
+2026-09-23 22:01:03,087 INFO   225/380  (3.0s/q)
+2026-09-23 22:02:19,413 INFO   250/380  (3.0s/q)
+2026-09-23 22:03:39,869 INFO   275/380  (3.0s/q)
+2026-09-23 22:04:52,723 INFO   300/380  (3.0s/q)
+2026-09-23 22:06:12,984 INFO   325/380  (3.0s/q)
+2026-09-23 22:06:26,894 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 22:06:27,454 INFO [ambig] loaded 34593 passages
+2026-09-23 22:07:17,137 INFO   350/380  (3.0s/q)
+2026-09-23 22:08:18,943 INFO   375/380  (3.0s/q)
+2026-09-23 22:08:31,533 INFO ── MIXED.dev / s_decompose_ab → judge=constant:COMPLEX|policy=typed+abstain
+2026-09-23 22:08:31,642 INFO judge=constant:COMPLEX|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 22:08:31,642 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 22:08:32,349 INFO [single] loaded 71239 passages
+2026-09-23 22:10:07,819 INFO   25/380  (3.8s/q)
+2026-09-23 22:11:50,507 INFO   50/380  (4.0s/q)
+2026-09-23 22:13:34,210 INFO   75/380  (4.0s/q)
+2026-09-23 22:15:09,211 INFO   100/380  (4.0s/q)
+2026-09-23 22:16:48,079 INFO   125/380  (4.0s/q)
+2026-09-23 22:18:28,986 INFO   150/380  (4.0s/q)
+2026-09-23 22:19:28,344 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 22:19:29,189 INFO [multihop] loaded 82728 passages
+2026-09-23 22:20:12,405 INFO   175/380  (4.0s/q)
+2026-09-23 22:22:02,252 INFO   200/380  (4.1s/q)
+2026-09-23 22:23:51,102 INFO   225/380  (4.1s/q)
+2026-09-23 22:25:36,789 INFO   250/380  (4.1s/q)
+2026-09-23 22:27:21,760 INFO   275/380  (4.1s/q)
+2026-09-23 22:29:15,391 INFO   300/380  (4.1s/q)
+2026-09-23 22:31:04,566 INFO   325/380  (4.2s/q)
+2026-09-23 22:31:29,860 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 22:31:30,393 INFO [ambig] loaded 34593 passages
+2026-09-23 22:32:32,987 INFO   350/380  (4.1s/q)
+2026-09-23 22:33:59,043 INFO   375/380  (4.1s/q)
+2026-09-23 22:34:16,177 INFO ── MIXED.dev / s_decomp_iter_ab → judge=constant:COMPLEX|policy=typed_iter+abstain
+2026-09-23 22:34:16,304 INFO judge=constant:COMPLEX|policy=typed_iter+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 22:34:16,304 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 22:34:17,030 INFO [single] loaded 71239 passages
+2026-09-23 22:36:11,845 INFO   25/380  (4.6s/q)
+2026-09-23 22:38:12,916 INFO   50/380  (4.7s/q)
+2026-09-23 22:40:05,675 INFO   75/380  (4.7s/q)
+2026-09-23 22:42:05,760 INFO   100/380  (4.7s/q)
+2026-09-23 22:44:10,243 INFO   125/380  (4.8s/q)
+2026-09-23 22:46:15,681 INFO   150/380  (4.8s/q)
+2026-09-23 22:47:32,443 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 22:47:33,230 INFO [multihop] loaded 82728 passages
+2026-09-23 22:48:28,121 INFO   175/380  (4.9s/q)
+2026-09-23 22:50:41,114 INFO   200/380  (4.9s/q)
+2026-09-23 22:52:49,139 INFO   225/380  (4.9s/q)
+2026-09-23 22:54:51,258 INFO   250/380  (4.9s/q)
+2026-09-23 22:56:53,917 INFO   275/380  (4.9s/q)
+2026-09-23 22:58:59,016 INFO   300/380  (4.9s/q)
+2026-09-23 23:01:05,660 INFO   325/380  (5.0s/q)
+2026-09-23 23:01:33,832 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 23:01:34,201 INFO [ambig] loaded 34593 passages
+2026-09-23 23:02:51,111 INFO   350/380  (4.9s/q)
+2026-09-23 23:04:30,078 INFO   375/380  (4.8s/q)
+2026-09-23 23:04:51,892 INFO ── MIXED.dev / s_disambiguate_ab → judge=constant:VAGUE|policy=typed+abstain
+2026-09-23 23:04:51,996 INFO judge=constant:VAGUE|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 23:04:51,996 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 23:04:52,712 INFO [single] loaded 71239 passages
+2026-09-23 23:06:02,348 INFO   25/380  (2.8s/q)
+2026-09-23 23:07:10,534 INFO   50/380  (2.8s/q)
+2026-09-23 23:08:19,497 INFO   75/380  (2.8s/q)
+2026-09-23 23:09:33,833 INFO   100/380  (2.8s/q)
+2026-09-23 23:10:44,812 INFO   125/380  (2.8s/q)
+2026-09-23 23:11:55,628 INFO   150/380  (2.8s/q)
+2026-09-23 23:12:42,230 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 23:12:43,021 INFO [multihop] loaded 82728 passages
+2026-09-23 23:13:14,934 INFO   175/380  (2.9s/q)
+2026-09-23 23:14:27,882 INFO   200/380  (2.9s/q)
+2026-09-23 23:15:42,024 INFO   225/380  (2.9s/q)
+2026-09-23 23:16:54,677 INFO   250/380  (2.9s/q)
+2026-09-23 23:18:05,242 INFO   275/380  (2.9s/q)
+2026-09-23 23:19:20,254 INFO   300/380  (2.9s/q)
+2026-09-23 23:20:29,571 INFO   325/380  (2.9s/q)
+2026-09-23 23:20:42,767 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 23:20:43,108 INFO [ambig] loaded 34593 passages
+2026-09-23 23:21:25,898 INFO   350/380  (2.8s/q)
+2026-09-23 23:22:29,978 INFO   375/380  (2.8s/q)
+2026-09-23 23:22:41,987 INFO ── MIXED.dev / s_anchor_ab → judge=constant:INSUFFICIENT|policy=typed+abstain
+2026-09-23 23:22:42,090 INFO judge=constant:INSUFFICIENT|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 23:22:42,090 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 23:22:42,799 INFO [single] loaded 71239 passages
+2026-09-23 23:23:46,433 INFO   25/380  (2.6s/q)
+2026-09-23 23:24:50,197 INFO   50/380  (2.6s/q)
+2026-09-23 23:25:50,715 INFO   75/380  (2.5s/q)
+2026-09-23 23:27:00,508 INFO   100/380  (2.6s/q)
+2026-09-23 23:28:09,602 INFO   125/380  (2.6s/q)
+2026-09-23 23:29:14,233 INFO   150/380  (2.6s/q)
+2026-09-23 23:29:59,569 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 23:30:00,576 INFO [multihop] loaded 82728 passages
+2026-09-23 23:30:24,399 INFO   175/380  (2.6s/q)
+2026-09-23 23:31:31,802 INFO   200/380  (2.6s/q)
+2026-09-23 23:32:36,757 INFO   225/380  (2.6s/q)
+2026-09-23 23:33:41,299 INFO   250/380  (2.6s/q)
+2026-09-23 23:34:50,482 INFO   275/380  (2.6s/q)
+2026-09-23 23:36:00,733 INFO   300/380  (2.7s/q)
+2026-09-23 23:37:06,936 INFO   325/380  (2.7s/q)
+2026-09-23 23:37:20,714 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 23:37:21,056 INFO [ambig] loaded 34593 passages
+2026-09-23 23:38:01,025 INFO   350/380  (2.6s/q)
+2026-09-23 23:38:54,481 INFO   375/380  (2.6s/q)
+2026-09-23 23:39:05,929 INFO ── MIXED.dev / j_oracle_ab → judge=oracle|policy=typed+abstain
+2026-09-23 23:39:06,015 INFO judge=oracle|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 23:39:06,015 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 23:39:06,709 INFO [single] loaded 71239 passages
+2026-09-23 23:39:34,105 INFO   25/380  (1.1s/q)
+2026-09-23 23:39:58,160 INFO   50/380  (1.0s/q)
+2026-09-23 23:40:21,189 INFO   75/380  (1.0s/q)
+2026-09-23 23:40:45,853 INFO   100/380  (1.0s/q)
+2026-09-23 23:41:10,116 INFO   125/380  (1.0s/q)
+2026-09-23 23:41:32,972 INFO   150/380  (1.0s/q)
+2026-09-23 23:41:47,624 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 23:41:48,368 INFO [multihop] loaded 82728 passages
+2026-09-23 23:42:10,945 INFO   175/380  (1.1s/q)
+2026-09-23 23:42:52,360 INFO   200/380  (1.1s/q)
+2026-09-23 23:43:37,440 INFO   225/380  (1.2s/q)
+2026-09-23 23:44:20,878 INFO   250/380  (1.3s/q)
+2026-09-23 23:44:51,207 INFO   275/380  (1.3s/q)
+2026-09-23 23:45:15,911 INFO   300/380  (1.2s/q)
+2026-09-23 23:45:40,828 INFO   325/380  (1.2s/q)
+2026-09-23 23:45:45,922 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 23:45:46,271 INFO [ambig] loaded 34593 passages
+2026-09-23 23:45:57,747 INFO   350/380  (1.2s/q)
+2026-09-23 23:46:12,989 INFO   375/380  (1.1s/q)
+2026-09-23 23:46:15,855 INFO ── MIXED.dev / j_random_ab → judge=random|policy=typed+abstain
+2026-09-23 23:46:15,942 INFO judge=random|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 23:46:15,942 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 23:46:16,634 INFO [single] loaded 71239 passages
+2026-09-23 23:46:47,546 INFO   25/380  (1.3s/q)
+2026-09-23 23:47:19,012 INFO   50/380  (1.3s/q)
+2026-09-23 23:47:47,776 INFO   75/380  (1.2s/q)
+2026-09-23 23:48:14,954 INFO   100/380  (1.2s/q)
+2026-09-23 23:48:46,003 INFO   125/380  (1.2s/q)
+2026-09-23 23:49:11,634 INFO   150/380  (1.2s/q)
+2026-09-23 23:49:28,425 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 23:49:29,237 INFO [multihop] loaded 82728 passages
+2026-09-23 23:49:42,477 INFO   175/380  (1.2s/q)
+2026-09-23 23:50:13,045 INFO   200/380  (1.2s/q)
+2026-09-23 23:50:48,558 INFO   225/380  (1.2s/q)
+2026-09-23 23:51:22,148 INFO   250/380  (1.2s/q)
+2026-09-23 23:51:53,142 INFO   275/380  (1.2s/q)
+2026-09-23 23:52:21,668 INFO   300/380  (1.2s/q)
+2026-09-23 23:52:49,776 INFO   325/380  (1.2s/q)
+2026-09-23 23:52:54,523 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-23 23:52:54,864 INFO [ambig] loaded 34593 passages
+2026-09-23 23:53:09,828 INFO   350/380  (1.2s/q)
+2026-09-23 23:53:26,221 INFO   375/380  (1.1s/q)
+2026-09-23 23:53:29,445 INFO ── MIXED.dev / j_llm_ab → judge=llm|policy=typed+abstain
+2026-09-23 23:53:29,543 INFO judge=llm|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-23 23:53:29,543 INFO [corpus] a libertar ambig para carregar single
+2026-09-23 23:53:30,173 INFO [single] loaded 71239 passages
+2026-09-23 23:54:27,894 INFO   25/380  (2.3s/q)
+2026-09-23 23:55:17,935 INFO   50/380  (2.2s/q)
+2026-09-23 23:56:09,377 INFO   75/380  (2.1s/q)
+2026-09-23 23:57:01,140 INFO   100/380  (2.1s/q)
+2026-09-23 23:57:53,810 INFO   125/380  (2.1s/q)
+2026-09-23 23:58:41,601 INFO   150/380  (2.1s/q)
+2026-09-23 23:59:10,589 INFO [corpus] a libertar single para carregar multihop
+2026-09-23 23:59:11,405 INFO [multihop] loaded 82728 passages
+2026-09-23 23:59:33,665 INFO   175/380  (2.1s/q)
+2026-09-24 00:00:25,777 INFO   200/380  (2.1s/q)
+2026-09-24 00:01:14,793 INFO   225/380  (2.1s/q)
+2026-09-24 00:02:04,280 INFO   250/380  (2.1s/q)
+2026-09-24 00:02:46,375 INFO   275/380  (2.0s/q)
+2026-09-24 00:03:30,508 INFO   300/380  (2.0s/q)
+2026-09-24 00:04:19,507 INFO   325/380  (2.0s/q)
+2026-09-24 00:04:28,097 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 00:04:28,446 INFO [ambig] loaded 34593 passages
+2026-09-24 00:04:55,222 INFO   350/380  (2.0s/q)
+2026-09-24 00:05:28,420 INFO   375/380  (1.9s/q)
+2026-09-24 00:05:36 ==== OK ====
+2026-09-24 00:05:43 ==== gemma2-9b | dev | MH MIXED ====
+2026-09-24 00:05:44,514 INFO ── MH.dev / no_corr → none|k=3
+2026-09-24 00:05:44,542 INFO none|k=3 | MH.dev | 0 done, 300 todo
+2026-09-24 00:05:45,503 INFO [multihop] loaded 82728 passages
+2026-09-24 00:05:45,797 INFO Reranker HTTP backend → http://reranker:8001
+2026-09-24 00:05:46,002 INFO Provider ollama_local reachable at http://ollama:11434/v1
+2026-09-24 00:07:04,822 INFO   25/300  (3.2s/q)
+2026-09-24 00:07:43,064 INFO   50/300  (2.4s/q)
+2026-09-24 00:08:21,993 INFO   75/300  (2.1s/q)
+2026-09-24 00:08:59,697 INFO   100/300  (2.0s/q)
+2026-09-24 00:09:35,780 INFO   125/300  (1.8s/q)
+2026-09-24 00:10:13,238 INFO   150/300  (1.8s/q)
+2026-09-24 00:10:54,299 INFO   175/300  (1.8s/q)
+2026-09-24 00:11:30,744 INFO   200/300  (1.7s/q)
+2026-09-24 00:12:07,357 INFO   225/300  (1.7s/q)
+2026-09-24 00:12:45,712 INFO   250/300  (1.7s/q)
+2026-09-24 00:13:24,820 INFO   275/300  (1.7s/q)
+2026-09-24 00:14:04,325 INFO   300/300  (1.7s/q)
+2026-09-24 00:14:04,366 INFO ── MH.dev / no_corr_k5 → none|k=5
+2026-09-24 00:14:04,396 INFO none|k=5 | MH.dev | 0 done, 300 todo
+2026-09-24 00:14:56,734 INFO   25/300  (2.1s/q)
+2026-09-24 00:15:49,076 INFO   50/300  (2.1s/q)
+2026-09-24 00:16:43,275 INFO   75/300  (2.1s/q)
+2026-09-24 00:17:36,081 INFO   100/300  (2.1s/q)
+2026-09-24 00:18:27,921 INFO   125/300  (2.1s/q)
+2026-09-24 00:19:22,173 INFO   150/300  (2.1s/q)
+2026-09-24 00:20:15,518 INFO   175/300  (2.1s/q)
+2026-09-24 00:21:09,555 INFO   200/300  (2.1s/q)
+2026-09-24 00:22:03,411 INFO   225/300  (2.1s/q)
+2026-09-24 00:22:57,073 INFO   250/300  (2.1s/q)
+2026-09-24 00:23:50,630 INFO   275/300  (2.1s/q)
+2026-09-24 00:24:45,798 INFO   300/300  (2.1s/q)
+2026-09-24 00:24:45,801 INFO ── MH.dev / s_rewrite → judge=constant:NONE|policy=typed
+2026-09-24 00:24:45,836 INFO judge=constant:NONE|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 00:24:47,592 INFO Ollama embedder → http://ollama:11434 (model=bge-m3)
+2026-09-24 00:27:20,843 INFO   25/300  (6.2s/q)
+2026-09-24 00:28:54,536 INFO   50/300  (5.0s/q)
+2026-09-24 00:30:25,831 INFO   75/300  (4.5s/q)
+2026-09-24 00:31:55,614 INFO   100/300  (4.3s/q)
+2026-09-24 00:33:23,702 INFO   125/300  (4.1s/q)
+2026-09-24 00:34:58,687 INFO   150/300  (4.1s/q)
+2026-09-24 00:36:23,618 INFO   175/300  (4.0s/q)
+2026-09-24 00:37:56,070 INFO   200/300  (4.0s/q)
+2026-09-24 00:39:18,707 INFO   225/300  (3.9s/q)
+2026-09-24 00:40:45,850 INFO   250/300  (3.8s/q)
+2026-09-24 00:42:13,473 INFO   275/300  (3.8s/q)
+2026-09-24 00:43:50,477 INFO   300/300  (3.8s/q)
+2026-09-24 00:43:50,541 INFO ── MH.dev / s_decompose → judge=constant:COMPLEX|policy=typed
+2026-09-24 00:43:50,597 INFO judge=constant:COMPLEX|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 00:45:41,996 INFO   25/300  (4.5s/q)
+2026-09-24 00:47:46,054 INFO   50/300  (4.7s/q)
+2026-09-24 00:49:52,173 INFO   75/300  (4.8s/q)
+2026-09-24 00:51:52,401 INFO   100/300  (4.8s/q)
+2026-09-24 00:54:03,783 INFO   125/300  (4.9s/q)
+2026-09-24 00:56:22,435 INFO   150/300  (5.0s/q)
+2026-09-24 00:58:25,127 INFO   175/300  (5.0s/q)
+2026-09-24 01:00:31,995 INFO   200/300  (5.0s/q)
+2026-09-24 01:02:20,872 INFO   225/300  (4.9s/q)
+2026-09-24 01:04:25,447 INFO   250/300  (4.9s/q)
+2026-09-24 01:06:30,259 INFO   275/300  (4.9s/q)
+2026-09-24 01:08:36,193 INFO   300/300  (5.0s/q)
+2026-09-24 01:08:36,223 INFO ── MH.dev / s_decomp_iter → judge=constant:COMPLEX|policy=typed_iter
+2026-09-24 01:08:36,276 INFO judge=constant:COMPLEX|policy=typed_iter | MH.dev | 0 done, 300 todo
+2026-09-24 01:10:58,479 INFO   25/300  (5.7s/q)
+2026-09-24 01:13:21,119 INFO   50/300  (5.7s/q)
+2026-09-24 01:15:47,068 INFO   75/300  (5.7s/q)
+2026-09-24 01:18:13,544 INFO   100/300  (5.8s/q)
+2026-09-24 01:20:42,558 INFO   125/300  (5.8s/q)
+2026-09-24 01:23:25,047 INFO   150/300  (5.9s/q)
+2026-09-24 01:25:44,218 INFO   175/300  (5.9s/q)
+2026-09-24 01:28:18,199 INFO   200/300  (5.9s/q)
+2026-09-24 01:30:32,713 INFO   225/300  (5.9s/q)
+2026-09-24 01:33:08,129 INFO   250/300  (5.9s/q)
+2026-09-24 01:35:34,314 INFO   275/300  (5.9s/q)
+2026-09-24 01:38:11,122 INFO   300/300  (5.9s/q)
+2026-09-24 01:38:11,242 INFO ── MH.dev / s_disambiguate → judge=constant:VAGUE|policy=typed
+2026-09-24 01:38:11,285 INFO judge=constant:VAGUE|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 01:39:35,440 INFO   25/300  (3.4s/q)
+2026-09-24 01:41:01,416 INFO   50/300  (3.4s/q)
+2026-09-24 01:42:27,788 INFO   75/300  (3.4s/q)
+2026-09-24 01:43:55,158 INFO   100/300  (3.4s/q)
+2026-09-24 01:45:14,355 INFO   125/300  (3.4s/q)
+2026-09-24 01:46:37,525 INFO   150/300  (3.4s/q)
+2026-09-24 01:48:01,004 INFO   175/300  (3.4s/q)
+2026-09-24 01:49:30,780 INFO   200/300  (3.4s/q)
+2026-09-24 01:50:52,004 INFO   225/300  (3.4s/q)
+2026-09-24 01:52:16,801 INFO   250/300  (3.4s/q)
+2026-09-24 01:53:47,140 INFO   275/300  (3.4s/q)
+2026-09-24 01:55:14,864 INFO   300/300  (3.4s/q)
+2026-09-24 01:55:14,994 INFO ── MH.dev / s_anchor → judge=constant:INSUFFICIENT|policy=typed
+2026-09-24 01:55:15,048 INFO judge=constant:INSUFFICIENT|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 01:56:31,977 INFO   25/300  (3.1s/q)
+2026-09-24 01:57:43,935 INFO   50/300  (3.0s/q)
+2026-09-24 01:59:04,999 INFO   75/300  (3.1s/q)
+2026-09-24 02:00:19,179 INFO   100/300  (3.0s/q)
+2026-09-24 02:01:49,127 INFO   125/300  (3.2s/q)
+2026-09-24 02:03:12,799 INFO   150/300  (3.2s/q)
+2026-09-24 02:04:39,887 INFO   175/300  (3.2s/q)
+2026-09-24 02:05:59,471 INFO   200/300  (3.2s/q)
+2026-09-24 02:07:17,434 INFO   225/300  (3.2s/q)
+2026-09-24 02:08:46,198 INFO   250/300  (3.2s/q)
+2026-09-24 02:10:15,465 INFO   275/300  (3.3s/q)
+2026-09-24 02:11:38,619 INFO   300/300  (3.3s/q)
+2026-09-24 02:11:38,660 INFO ── MH.dev / j_oracle → judge=oracle|policy=typed
+2026-09-24 02:11:38,715 INFO judge=oracle|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 02:12:15,406 INFO   25/300  (1.5s/q)
+2026-09-24 02:12:53,091 INFO   50/300  (1.5s/q)
+2026-09-24 02:13:31,157 INFO   75/300  (1.5s/q)
+2026-09-24 02:14:09,738 INFO   100/300  (1.5s/q)
+2026-09-24 02:14:48,466 INFO   125/300  (1.5s/q)
+2026-09-24 02:15:31,628 INFO   150/300  (1.6s/q)
+2026-09-24 02:16:14,519 INFO   175/300  (1.6s/q)
+2026-09-24 02:16:55,444 INFO   200/300  (1.6s/q)
+2026-09-24 02:17:35,573 INFO   225/300  (1.6s/q)
+2026-09-24 02:18:16,614 INFO   250/300  (1.6s/q)
+2026-09-24 02:18:58,104 INFO   275/300  (1.6s/q)
+2026-09-24 02:19:40,490 INFO   300/300  (1.6s/q)
+2026-09-24 02:19:40,495 INFO ── MH.dev / j_random → judge=random|policy=typed
+2026-09-24 02:19:40,521 INFO judge=random|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 02:20:08,765 INFO   25/300  (1.1s/q)
+2026-09-24 02:20:40,479 INFO   50/300  (1.2s/q)
+2026-09-24 02:21:07,656 INFO   75/300  (1.2s/q)
+2026-09-24 02:21:38,418 INFO   100/300  (1.2s/q)
+2026-09-24 02:22:05,777 INFO   125/300  (1.2s/q)
+2026-09-24 02:22:38,419 INFO   150/300  (1.2s/q)
+2026-09-24 02:23:11,367 INFO   175/300  (1.2s/q)
+2026-09-24 02:23:41,870 INFO   200/300  (1.2s/q)
+2026-09-24 02:24:10,933 INFO   225/300  (1.2s/q)
+2026-09-24 02:24:42,925 INFO   250/300  (1.2s/q)
+2026-09-24 02:25:13,263 INFO   275/300  (1.2s/q)
+2026-09-24 02:25:42,523 INFO   300/300  (1.2s/q)
+2026-09-24 02:25:42,525 INFO ── MH.dev / j_llm → judge=llm|policy=typed
+2026-09-24 02:25:42,550 INFO judge=llm|policy=typed | MH.dev | 0 done, 300 todo
+2026-09-24 02:27:13,402 INFO   25/300  (3.6s/q)
+2026-09-24 02:28:22,326 INFO   50/300  (3.2s/q)
+2026-09-24 02:29:17,542 INFO   75/300  (2.9s/q)
+2026-09-24 02:30:13,671 INFO   100/300  (2.7s/q)
+2026-09-24 02:31:16,494 INFO   125/300  (2.7s/q)
+2026-09-24 02:32:15,949 INFO   150/300  (2.6s/q)
+2026-09-24 02:33:23,028 INFO   175/300  (2.6s/q)
+2026-09-24 02:34:23,969 INFO   200/300  (2.6s/q)
+2026-09-24 02:35:23,808 INFO   225/300  (2.6s/q)
+2026-09-24 02:36:22,894 INFO   250/300  (2.6s/q)
+2026-09-24 02:37:27,578 INFO   275/300  (2.6s/q)
+2026-09-24 02:38:26,528 INFO   300/300  (2.5s/q)
+2026-09-24 02:38:26,533 INFO ── MIXED.dev / no_corr_k5 → none|k=5
+2026-09-24 02:38:26,647 INFO none|k=5 | MIXED.dev | 0 done, 380 todo
+2026-09-24 02:38:26,647 INFO [corpus] a libertar multihop para carregar single
+2026-09-24 02:38:28,830 INFO [single] loaded 71239 passages
+2026-09-24 02:39:27,780 INFO   25/380  (2.4s/q)
+2026-09-24 02:40:23,045 INFO   50/380  (2.3s/q)
+2026-09-24 02:41:16,518 INFO   75/380  (2.3s/q)
+2026-09-24 02:42:16,530 INFO   100/380  (2.3s/q)
+2026-09-24 02:43:12,835 INFO   125/380  (2.3s/q)
+2026-09-24 02:44:07,451 INFO   150/380  (2.3s/q)
+2026-09-24 02:44:45,082 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 02:44:45,837 INFO [multihop] loaded 82728 passages
+2026-09-24 02:45:12,867 INFO   175/380  (2.3s/q)
+2026-09-24 02:46:09,261 INFO   200/380  (2.3s/q)
+2026-09-24 02:47:06,260 INFO   225/380  (2.3s/q)
+2026-09-24 02:48:03,239 INFO   250/380  (2.3s/q)
+2026-09-24 02:49:03,936 INFO   275/380  (2.3s/q)
+2026-09-24 02:49:56,999 INFO   300/380  (2.3s/q)
+2026-09-24 02:51:01,481 INFO   325/380  (2.3s/q)
+2026-09-24 02:51:11,812 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 02:51:12,170 INFO [ambig] loaded 34593 passages
+2026-09-24 02:51:46,117 INFO   350/380  (2.3s/q)
+2026-09-24 02:52:29,046 INFO   375/380  (2.2s/q)
+2026-09-24 02:52:43,814 INFO ── MIXED.dev / no_corr_k5_ab → none|k=5+abstain
+2026-09-24 02:52:43,925 INFO none|k=5+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 02:52:43,925 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 02:52:44,632 INFO [single] loaded 71239 passages
+2026-09-24 02:53:40,222 INFO   25/380  (2.3s/q)
+2026-09-24 02:54:37,198 INFO   50/380  (2.3s/q)
+2026-09-24 02:55:37,293 INFO   75/380  (2.3s/q)
+2026-09-24 02:56:37,389 INFO   100/380  (2.3s/q)
+2026-09-24 02:57:31,104 INFO   125/380  (2.3s/q)
+2026-09-24 02:58:24,932 INFO   150/380  (2.3s/q)
+2026-09-24 02:58:59,482 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 02:59:00,246 INFO [multihop] loaded 82728 passages
+2026-09-24 02:59:27,597 INFO   175/380  (2.3s/q)
+2026-09-24 03:00:24,393 INFO   200/380  (2.3s/q)
+2026-09-24 03:01:22,705 INFO   225/380  (2.3s/q)
+2026-09-24 03:02:23,119 INFO   250/380  (2.3s/q)
+2026-09-24 03:03:19,551 INFO   275/380  (2.3s/q)
+2026-09-24 03:04:15,272 INFO   300/380  (2.3s/q)
+2026-09-24 03:05:15,855 INFO   325/380  (2.3s/q)
+2026-09-24 03:05:27,792 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 03:05:28,134 INFO [ambig] loaded 34593 passages
+2026-09-24 03:06:02,224 INFO   350/380  (2.3s/q)
+2026-09-24 03:06:45,633 INFO   375/380  (2.2s/q)
+2026-09-24 03:06:54,349 INFO ── MIXED.dev / s_rewrite_ab → judge=constant:NONE|policy=typed+abstain
+2026-09-24 03:06:54,432 INFO judge=constant:NONE|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 03:06:54,432 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 03:06:55,117 INFO [single] loaded 71239 passages
+2026-09-24 03:08:26,706 INFO   25/380  (3.7s/q)
+2026-09-24 03:10:00,665 INFO   50/380  (3.7s/q)
+2026-09-24 03:11:35,590 INFO   75/380  (3.7s/q)
+2026-09-24 03:13:06,631 INFO   100/380  (3.7s/q)
+2026-09-24 03:14:37,862 INFO   125/380  (3.7s/q)
+2026-09-24 03:16:13,253 INFO   150/380  (3.7s/q)
+2026-09-24 03:17:11,258 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 03:17:12,303 INFO [multihop] loaded 82728 passages
+2026-09-24 03:17:54,474 INFO   175/380  (3.8s/q)
+2026-09-24 03:19:38,416 INFO   200/380  (3.8s/q)
+2026-09-24 03:21:18,755 INFO   225/380  (3.8s/q)
+2026-09-24 03:23:05,511 INFO   250/380  (3.9s/q)
+2026-09-24 03:25:02,076 INFO   275/380  (4.0s/q)
+2026-09-24 03:26:40,795 INFO   300/380  (4.0s/q)
+2026-09-24 03:28:23,930 INFO   325/380  (4.0s/q)
+2026-09-24 03:28:42,311 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 03:28:42,673 INFO [ambig] loaded 34593 passages
+2026-09-24 03:29:44,094 INFO   350/380  (3.9s/q)
+2026-09-24 03:31:05,325 INFO   375/380  (3.9s/q)
+2026-09-24 03:31:20,803 INFO ── MIXED.dev / s_decompose_ab → judge=constant:COMPLEX|policy=typed+abstain
+2026-09-24 03:31:20,894 INFO judge=constant:COMPLEX|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 03:31:20,895 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 03:31:21,602 INFO [single] loaded 71239 passages
+2026-09-24 03:33:20,372 INFO   25/380  (4.8s/q)
+2026-09-24 03:35:18,529 INFO   50/380  (4.8s/q)
+2026-09-24 03:37:17,517 INFO   75/380  (4.8s/q)
+2026-09-24 03:39:22,941 INFO   100/380  (4.8s/q)
+2026-09-24 03:41:26,469 INFO   125/380  (4.8s/q)
+2026-09-24 03:43:22,580 INFO   150/380  (4.8s/q)
+2026-09-24 03:44:37,969 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 03:44:38,884 INFO [multihop] loaded 82728 passages
+2026-09-24 03:45:37,174 INFO   175/380  (4.9s/q)
+2026-09-24 03:47:55,337 INFO   200/380  (5.0s/q)
+2026-09-24 03:49:59,120 INFO   225/380  (5.0s/q)
+2026-09-24 03:52:08,081 INFO   250/380  (5.0s/q)
+2026-09-24 03:54:22,242 INFO   275/380  (5.0s/q)
+2026-09-24 03:56:39,843 INFO   300/380  (5.1s/q)
+2026-09-24 03:58:58,323 INFO   325/380  (5.1s/q)
+2026-09-24 03:59:23,565 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 03:59:24,131 INFO [ambig] loaded 34593 passages
+2026-09-24 04:00:34,834 INFO   350/380  (5.0s/q)
+2026-09-24 04:02:14,612 INFO   375/380  (4.9s/q)
+2026-09-24 04:02:33,737 INFO ── MIXED.dev / s_decomp_iter_ab → judge=constant:COMPLEX|policy=typed_iter+abstain
+2026-09-24 04:02:33,844 INFO judge=constant:COMPLEX|policy=typed_iter+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 04:02:33,844 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 04:02:34,591 INFO [single] loaded 71239 passages
+2026-09-24 04:05:13,365 INFO   25/380  (6.4s/q)
+2026-09-24 04:07:39,754 INFO   50/380  (6.1s/q)
+2026-09-24 04:10:16,977 INFO   75/380  (6.2s/q)
+2026-09-24 04:12:50,152 INFO   100/380  (6.2s/q)
+2026-09-24 04:15:33,198 INFO   125/380  (6.2s/q)
+2026-09-24 04:18:12,718 INFO   150/380  (6.3s/q)
+2026-09-24 04:19:46,603 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 04:19:47,452 INFO [multihop] loaded 82728 passages
+2026-09-24 04:20:50,160 INFO   175/380  (6.3s/q)
+2026-09-24 04:23:32,522 INFO   200/380  (6.3s/q)
+2026-09-24 04:25:55,040 INFO   225/380  (6.2s/q)
+2026-09-24 04:28:19,788 INFO   250/380  (6.2s/q)
+2026-09-24 04:31:02,382 INFO   275/380  (6.2s/q)
+2026-09-24 04:33:39,176 INFO   300/380  (6.2s/q)
+2026-09-24 04:36:10,415 INFO   325/380  (6.2s/q)
+2026-09-24 04:36:42,941 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 04:36:43,427 INFO [ambig] loaded 34593 passages
+2026-09-24 04:38:24,256 INFO   350/380  (6.1s/q)
+2026-09-24 04:40:28,769 INFO   375/380  (6.1s/q)
+2026-09-24 04:40:52,474 INFO ── MIXED.dev / s_disambiguate_ab → judge=constant:VAGUE|policy=typed+abstain
+2026-09-24 04:40:52,585 INFO judge=constant:VAGUE|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 04:40:52,586 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 04:40:53,310 INFO [single] loaded 71239 passages
+2026-09-24 04:42:18,285 INFO   25/380  (3.4s/q)
+2026-09-24 04:43:44,479 INFO   50/380  (3.4s/q)
+2026-09-24 04:45:11,682 INFO   75/380  (3.5s/q)
+2026-09-24 04:46:34,523 INFO   100/380  (3.4s/q)
+2026-09-24 04:47:57,924 INFO   125/380  (3.4s/q)
+2026-09-24 04:49:26,022 INFO   150/380  (3.4s/q)
+2026-09-24 04:50:17,132 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 04:50:17,912 INFO [multihop] loaded 82728 passages
+2026-09-24 04:50:55,132 INFO   175/380  (3.4s/q)
+2026-09-24 04:52:24,465 INFO   200/380  (3.5s/q)
+2026-09-24 04:54:01,023 INFO   225/380  (3.5s/q)
+2026-09-24 04:55:35,225 INFO   250/380  (3.5s/q)
+2026-09-24 04:57:10,252 INFO   275/380  (3.6s/q)
+2026-09-24 04:58:38,738 INFO   300/380  (3.6s/q)
+2026-09-24 05:00:13,353 INFO   325/380  (3.6s/q)
+2026-09-24 05:00:32,204 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 05:00:32,679 INFO [ambig] loaded 34593 passages
+2026-09-24 05:01:30,986 INFO   350/380  (3.5s/q)
+2026-09-24 05:02:45,435 INFO   375/380  (3.5s/q)
+2026-09-24 05:03:03,214 INFO ── MIXED.dev / s_anchor_ab → judge=constant:INSUFFICIENT|policy=typed+abstain
+2026-09-24 05:03:03,323 INFO judge=constant:INSUFFICIENT|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 05:03:03,323 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 05:03:04,048 INFO [single] loaded 71239 passages
+2026-09-24 05:04:18,131 INFO   25/380  (3.0s/q)
+2026-09-24 05:05:31,386 INFO   50/380  (3.0s/q)
+2026-09-24 05:06:48,706 INFO   75/380  (3.0s/q)
+2026-09-24 05:08:13,446 INFO   100/380  (3.1s/q)
+2026-09-24 05:09:36,970 INFO   125/380  (3.1s/q)
+2026-09-24 05:11:07,346 INFO   150/380  (3.2s/q)
+2026-09-24 05:12:01,245 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 05:12:01,996 INFO [multihop] loaded 82728 passages
+2026-09-24 05:12:41,031 INFO   175/380  (3.3s/q)
+2026-09-24 05:14:05,483 INFO   200/380  (3.3s/q)
+2026-09-24 05:15:34,356 INFO   225/380  (3.3s/q)
+2026-09-24 05:16:51,267 INFO   250/380  (3.3s/q)
+2026-09-24 05:18:19,259 INFO   275/380  (3.3s/q)
+2026-09-24 05:19:50,460 INFO   300/380  (3.4s/q)
+2026-09-24 05:21:20,343 INFO   325/380  (3.4s/q)
+2026-09-24 05:21:40,659 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 05:21:41,129 INFO [ambig] loaded 34593 passages
+2026-09-24 05:22:32,075 INFO   350/380  (3.3s/q)
+2026-09-24 05:23:49,508 INFO   375/380  (3.3s/q)
+2026-09-24 05:24:01,501 INFO ── MIXED.dev / j_oracle_ab → judge=oracle|policy=typed+abstain
+2026-09-24 05:24:01,598 INFO judge=oracle|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 05:24:01,598 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 05:24:02,288 INFO [single] loaded 71239 passages
+2026-09-24 05:24:31,499 INFO   25/380  (1.2s/q)
+2026-09-24 05:24:59,709 INFO   50/380  (1.2s/q)
+2026-09-24 05:25:25,598 INFO   75/380  (1.1s/q)
+2026-09-24 05:25:53,270 INFO   100/380  (1.1s/q)
+2026-09-24 05:26:16,786 INFO   125/380  (1.1s/q)
+2026-09-24 05:26:40,744 INFO   150/380  (1.1s/q)
+2026-09-24 05:26:55,257 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 05:26:55,988 INFO [multihop] loaded 82728 passages
+2026-09-24 05:27:18,259 INFO   175/380  (1.1s/q)
+2026-09-24 05:28:00,633 INFO   200/380  (1.2s/q)
+2026-09-24 05:28:42,158 INFO   225/380  (1.2s/q)
+2026-09-24 05:29:23,274 INFO   250/380  (1.3s/q)
+2026-09-24 05:29:50,284 INFO   275/380  (1.3s/q)
+2026-09-24 05:30:14,115 INFO   300/380  (1.2s/q)
+2026-09-24 05:30:39,132 INFO   325/380  (1.2s/q)
+2026-09-24 05:30:43,956 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 05:30:44,273 INFO [ambig] loaded 34593 passages
+2026-09-24 05:30:56,519 INFO   350/380  (1.2s/q)
+2026-09-24 05:31:13,146 INFO   375/380  (1.2s/q)
+2026-09-24 05:31:15,929 INFO ── MIXED.dev / j_random_ab → judge=random|policy=typed+abstain
+2026-09-24 05:31:16,009 INFO judge=random|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 05:31:16,009 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 05:31:16,676 INFO [single] loaded 71239 passages
+2026-09-24 05:31:46,381 INFO   25/380  (1.2s/q)
+2026-09-24 05:32:13,833 INFO   50/380  (1.2s/q)
+2026-09-24 05:32:41,865 INFO   75/380  (1.1s/q)
+2026-09-24 05:33:09,872 INFO   100/380  (1.1s/q)
+2026-09-24 05:33:39,679 INFO   125/380  (1.1s/q)
+2026-09-24 05:34:06,249 INFO   150/380  (1.1s/q)
+2026-09-24 05:34:22,561 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 05:34:23,291 INFO [multihop] loaded 82728 passages
+2026-09-24 05:34:36,745 INFO   175/380  (1.1s/q)
+2026-09-24 05:35:09,248 INFO   200/380  (1.2s/q)
+2026-09-24 05:35:41,982 INFO   225/380  (1.2s/q)
+2026-09-24 05:36:13,821 INFO   250/380  (1.2s/q)
+2026-09-24 05:36:45,236 INFO   275/380  (1.2s/q)
+2026-09-24 05:37:14,037 INFO   300/380  (1.2s/q)
+2026-09-24 05:37:43,062 INFO   325/380  (1.2s/q)
+2026-09-24 05:37:47,759 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 05:37:48,096 INFO [ambig] loaded 34593 passages
+2026-09-24 05:38:02,893 INFO   350/380  (1.2s/q)
+2026-09-24 05:38:19,577 INFO   375/380  (1.1s/q)
+2026-09-24 05:38:23,106 INFO ── MIXED.dev / j_llm_ab → judge=llm|policy=typed+abstain
+2026-09-24 05:38:23,186 INFO judge=llm|policy=typed+abstain | MIXED.dev | 0 done, 380 todo
+2026-09-24 05:38:23,186 INFO [corpus] a libertar ambig para carregar single
+2026-09-24 05:38:23,864 INFO [single] loaded 71239 passages
+2026-09-24 05:39:51,273 INFO   25/380  (3.5s/q)
+2026-09-24 05:40:49,449 INFO   50/380  (2.9s/q)
+2026-09-24 05:41:45,542 INFO   75/380  (2.7s/q)
+2026-09-24 05:42:39,969 INFO   100/380  (2.6s/q)
+2026-09-24 05:43:36,373 INFO   125/380  (2.5s/q)
+2026-09-24 05:44:30,110 INFO   150/380  (2.4s/q)
+2026-09-24 05:45:06,362 INFO [corpus] a libertar single para carregar multihop
+2026-09-24 05:45:07,095 INFO [multihop] loaded 82728 passages
+2026-09-24 05:45:33,662 INFO   175/380  (2.5s/q)
+2026-09-24 05:46:39,107 INFO   200/380  (2.5s/q)
+2026-09-24 05:47:35,092 INFO   225/380  (2.5s/q)
+2026-09-24 05:48:33,556 INFO   250/380  (2.4s/q)
+2026-09-24 05:49:31,993 INFO   275/380  (2.4s/q)
+2026-09-24 05:50:30,504 INFO   300/380  (2.4s/q)
+2026-09-24 05:51:28,494 INFO   325/380  (2.4s/q)
+2026-09-24 05:51:39,564 INFO [corpus] a libertar multihop para carregar ambig
+2026-09-24 05:51:39,906 INFO [ambig] loaded 34593 passages
+2026-09-24 05:52:19,081 INFO   350/380  (2.4s/q)
+2026-09-24 05:53:04,474 INFO   375/380  (2.4s/q)
+2026-09-24 05:53:13 ==== OK ====
+2026-09-24 05:53:19 ==== S1 dev DONE ====

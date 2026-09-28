@@ -1,0 +1,169 @@
+{
+  "excluded_pilot_qids": 18856,
+  "salt": "study-s1",
+  "available": {
+    "musique_train": 19938,
+    "hotpotqa": 4360,
+    "2wiki": 8694,
+    "popqa": 325,
+    "triviaqa": 5275,
+    "squad": 7808,
+    "asqa_train": 4353
+  },
+  "filled": {
+    "musique_train": {
+      "MH.test/COMPLEX": 500,
+      "MIXED.test/COMPLEX": 90,
+      "MIXED.test/INSUFFICIENT_HOP": 70,
+      "MH.dev/COMPLEX": 100,
+      "MIXED.dev/COMPLEX": 30,
+      "MIXED.dev/INSUFFICIENT_HOP": 25,
+      "STATE_TRAIN.train/COMPLEX": 600,
+      "STATE_TRAIN.train/INSUFFICIENT_HOP": 60
+    },
+    "hotpotqa": {
+      "MH.test/COMPLEX": 500,
+      "MIXED.test/COMPLEX": 90,
+      "MIXED.test/INSUFFICIENT_HOP": 70,
+      "MH.dev/COMPLEX": 100,
+      "MIXED.dev/COMPLEX": 30,
+      "MIXED.dev/INSUFFICIENT_HOP": 25,
+      "STATE_TRAIN.train/COMPLEX": 600,
+      "STATE_TRAIN.train/INSUFFICIENT_HOP": 60
+    },
+    "2wiki": {
+      "MH.test/COMPLEX": 500,
+      "MIXED.test/COMPLEX": 90,
+      "MIXED.test/INSUFFICIENT_HOP": 70,
+      "MH.dev/COMPLEX": 100,
+      "MIXED.dev/COMPLEX": 30,
+      "MIXED.dev/INSUFFICIENT_HOP": 25,
+      "STATE_TRAIN.train/COMPLEX": 600,
+      "STATE_TRAIN.train/INSUFFICIENT_HOP": 60
+    },
+    "popqa": {
+      "MIXED.test/ANSWERABLE": 90,
+      "MIXED.test/INSUFFICIENT_SINGLE": 70,
+      "MIXED.dev/ANSWERABLE": 30,
+      "MIXED.dev/INSUFFICIENT_SINGLE": 25,
+      "STATE_TRAIN.train/ANSWERABLE": 67,
+      "STATE_TRAIN.train/INSUFFICIENT_SINGLE": 43,
+      "short": {
+        "STATE_TRAIN.train/ANSWERABLE": 233,
+        "STATE_TRAIN.train/INSUFFICIENT_SINGLE": 7
+      }
+    },
+    "triviaqa": {
+      "MIXED.test/ANSWERABLE": 90,
+      "MIXED.test/INSUFFICIENT_SINGLE": 70,
+      "MIXED.dev/ANSWERABLE": 30,
+      "MIXED.dev/INSUFFICIENT_SINGLE": 25,
+      "STATE_TRAIN.train/ANSWERABLE": 300,
+      "STATE_TRAIN.train/INSUFFICIENT_SINGLE": 50
+    },
+    "squad": {
+      "MIXED.test/ANSWERABLE": 90,
+      "MIXED.test/INSUFFICIENT_SINGLE": 70,
+      "MIXED.dev/ANSWERABLE": 30,
+      "MIXED.dev/INSUFFICIENT_SINGLE": 25,
+      "STATE_TRAIN.train/ANSWERABLE": 300,
+      "STATE_TRAIN.train/INSUFFICIENT_SINGLE": 50
+    },
+    "asqa_train": {
+      "MIXED.test/VAGUE": 150,
+      "MIXED.dev/VAGUE": 50,
+      "STATE_TRAIN.train/VAGUE": 100
+    }
+  },
+  "sets": {
+    "MH.test": {
+      "COMPLEX": {
+        "2wiki": 500,
+        "hotpotqa": 500,
+        "musique_train": 500
+      }
+    },
+    "MIXED.test": {
+      "ANSWERABLE": {
+        "popqa": 90,
+        "squad": 90,
+        "triviaqa": 90
+      },
+      "INSUFFICIENT_SINGLE": {
+        "popqa": 70,
+        "squad": 70,
+        "triviaqa": 70
+      },
+      "COMPLEX": {
+        "2wiki": 90,
+        "hotpotqa": 90,
+        "musique_train": 90
+      },
+      "INSUFFICIENT_HOP": {
+        "2wiki": 70,
+        "hotpotqa": 70,
+        "musique_train": 70
+      },
+      "VAGUE": {
+        "asqa_train": 150
+      }
+    },
+    "MH.dev": {
+      "COMPLEX": {
+        "2wiki": 100,
+        "hotpotqa": 100,
+        "musique_train": 100
+      }
+    },
+    "MIXED.dev": {
+      "ANSWERABLE": {
+        "popqa": 30,
+        "squad": 30,
+        "triviaqa": 30
+      },
+      "INSUFFICIENT_SINGLE": {
+        "popqa": 25,
+        "squad": 25,
+        "triviaqa": 25
+      },
+      "COMPLEX": {
+        "2wiki": 30,
+        "hotpotqa": 30,
+        "musique_train": 30
+      },
+      "INSUFFICIENT_HOP": {
+        "2wiki": 25,
+        "hotpotqa": 25,
+        "musique_train": 25
+      },
+      "VAGUE": {
+        "asqa_train": 50
+      }
+    },
+    "STATE_TRAIN.train": {
+      "ANSWERABLE": {
+        "popqa": 67,
+        "squad": 300,
+        "triviaqa": 300
+      },
+      "INSUFFICIENT_SINGLE": {
+        "popqa": 43,
+        "squad": 50,
+        "triviaqa": 50
+      },
+      "COMPLEX": {
+        "2wiki": 600,
+        "hotpotqa": 600,
+        "musique_train": 600
+      },
+      "INSUFFICIENT_HOP": {
+        "2wiki": 60,
+        "hotpotqa": 60,
+        "musique_train": 60
+      },
+      "VAGUE": {
+        "asqa_train": 100
+      }
+    }
+  }
+}
