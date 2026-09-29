@@ -247,15 +247,15 @@ If you use this repository or refer to the findings, please cite:
 @article{eleuterio2026correctiverag,
   title   = {When Does Corrective Retrieval Pay Off? An Oracle-Controlled Study of Failure Types and Retrieval State},
   author  = {Eleuterio, D.S. and Oliveira, P.F. and Matos, P.J.T.},
-  journal = {TODO},
+  journal = {TBD},
   year    = {2026},
 }
 
 @software{eleuterio2026correctiverag_repository,
   author  = {Eleuterio, D.S. and Oliveira, P.F. and Matos, P.J.T.},
-  doi     = {TODO},
+  doi     = {10.5281/zenodo.23022639},
   title   = {When Does Corrective Retrieval Pay Off? An Oracle-Controlled Study of Failure Types and Retrieval State},
-  url     = {TODO},
+  url     = {https://github.com/a52972/failure_taxonomies_article},
   version = {1.0.1},
   year    = {2026}
 }
